@@ -2,7 +2,7 @@
 
 ### Ejercicio 1 - La consola
 
-1. Usando la consola  
+1. Usando la consola:  
   a. navegá hasta la carpeta que prefieras, por ejemplos `"Mis Documentos"`.  
   b. creá una carpeta nueva, llamada `consola-ejercicio-1`.  
   c. navegá hacia esa carpeta, y creá dos carpetas más: `peliculas-por-ver` y `peliculas-vistas`.  
