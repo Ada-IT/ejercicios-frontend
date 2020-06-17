@@ -4,7 +4,7 @@
 
 ### Sitio de presentación
 
-- Divididas en grupos de 4, elijan una compañera para que cree un repositorio, llamado ``. Una vez creado, las demás clónense ese repositorio.
+- Divididas en grupos de 4, elijan una compañera para que cree un repositorio, llamado `intro-html-sitio-presentacion`. Una vez creado, las demás clónense ese repositorio.
 - Cada una debe crear, dentro de la carpeta del repositorio clonado, un archivo con extensión `.html` y con su propio nombre. Por ejemplo, `ada.html`. Quien creó el repositorio, en vez de ponerle su nombre al archivo, debe llamarlo `index.html`.
 - En su archivo `html`, cada una debe agregar:
     - Un `h1` con su nombre y un saludo de bienvenida
