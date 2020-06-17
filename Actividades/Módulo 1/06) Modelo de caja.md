@@ -4,9 +4,9 @@
 
 ### Citas
 
-1. En una nueva carpeta, creá un archivo `index.html`.
-2. Escribí la estructura básica de un documento `html`.
-3. En el `body`, crear **tres** contenedores usando la etiqueta `div`.
+1. En una nueva carpeta, creá un archivo `index.html` y un archivo `styles.css`.
+2. Escribí la estructura básica de un documento `html` y linkeá el archivo `css`.
+3. En el `body`, creá **tres** contenedores usando la etiqueta `div`.
 4. A cada div ponele la clase `contenedor-cita`.
 5. Dentro de cada `div` poné un nuevo `div`, con la clase `tarjeta-cita`.
 6. Cada `tarjeta-cita` puede contener una de las siguientes opciones: 
