@@ -19,3 +19,12 @@ Crear la estructura HTML de los siguientes ejemplos. Poner nombres de clases sem
 ### [Cart](https://uidesigndaily.com/posts/photoshop-cart-purchase-card-widget-e-commerce-day-271)
 
 ### [Movie Card](https://uidesigndaily.com/posts/sketch-movie-card-day-533)
+
+### [About Page](https://colorlib.com/preview/theme/farmie/about.html)
+
+### [Product Page](https://colorlib.com/preview/theme/minishop/product-single.html)
+
+### [Landing Page](https://startbootstrap.github.io/startbootstrap-creative/)
+
+### [Landing Page II](https://uicookies.com/demo/theme/fineoak/)
+
