@@ -7,52 +7,141 @@
   - sin tildes
   - las palabras se separan con guiones, no con espacios.
 - Dentro de la carpeta de cada ejercicio, crear un archivo `index.html`
-- Si el ejercicio tiene más páginas, dentro de la carpeta del ejercicio crear una carpeta `paginas` y agregar los archivos `html` dentro de ella. Por ejemplo:
+- Si el ejercicio tiene más páginas, dentro de la carpeta del ejercicio crear una carpeta `paginas` y agregar los archivos `html` dentro de ella.
+- Si el ejercicio tiene una o varias imágenes, dentro de la carpeta del ejercicio crear una carpeta `imagenes` y agregar las imágenes dentro de ella.
 
 ```
 ada
 └── modulo-1-html
       └── 08-portfolio
+            ├── imagenes
+            │   └── imagen.jpg
             ├── paginas
             │   ├── sobre-mi.html
             │   └── contacto.html
             └── index.html
 ```
-
-Para los siguientes ejercicios:
-- Puede usar `lorem ipsum` para rellenar párrafos de texto.
-- Pueden copiar y pegar texto de otras páginas.
-- **¡No copien ni peguen etiquetas HTML!** Por más tedioso que sea, la repetición mecánica ayuda muchísimo a memorizar las etiquetas y la sintaxis. Si tienen que escribir 10 párrafos, escriban las 10 etiquetas `p` correspondientes.
-- En todas las páginas, crear la estructura básica de un documento HTML correspondiente.
+<br>
 
 ## Ejercicios
 
-### Ejercicio 01 - Artículo de Blog
+Para los siguientes ejercicios:
+- Pueden usar `lorem ipsum` para rellenar párrafos de texto.
+- Pueden copiar y pegar texto de otras páginas.
+- **¡No copien ni peguen etiquetas HTML!** Por más tedioso que sea, la repetición mecánica ayuda muchísimo a memorizar las etiquetas y la sintaxis. Si tienen que escribir 10 párrafos, escriban las 10 etiquetas `p` correspondientes.
+- En todas las páginas, crear la estructura básica de un documento HTML correspondiente (poner un título al documento que sea adecuado, por ejemplo el nombre del ejercicio).
+- A menos que se indique lo contrario, los elementos se agregan uno debajo del otro. Por ejemplo, si el ejercicio indica agregar una imagen y un párrafo, el párrafo se agrega debajo de la imagen.
 
 
-### Ejercicio 02 - Diario de eventos
+### Ejercicio 01 - Blog
 
+`index.html` debe contener:
 
-### Ejercicio 03 - Artículo de Wikipedia
+- un título `h1` que diga: `El mejor artículo del mundo`.
+- un párrafo `p` que diga: `Por Ada Lovelace. Publicado hace 3 días`, con tu nombre en vez de `Ada Lovelace`.
+- 4 párrafos con `lorem ipsum`.
 
+### Ejercicio 02 - Diario personal
 
-### Ejercicio 04 - Receta (Listas)
+`index.html` debe contener:
 
+- un título `h1` que diga: `Mi diario`.
+- por cada día de la semana crear un título `h2` con el nombre del día.
+- debajo de cada día de la semana, agregar un párrafo `p` que describa lo que hiciste ese día la semana pasada, por ejemplo: `Miré una nueva serie en Netflix`.
 
-### Ejercicio 05 - Playlist (Listas / Span)
+### Ejercicio 03 - Enciclopedia
 
+Buscar un artículo de Wikipedia que te interese. `index.html` debe contener:
 
-### Ejercicio 06 - Links de contenidos (enlaces internos)
+- un título `h1` con el nombre del artículo (por ejemplo **Ada Lovelace**).
+- un párrafo `p` con la introducción o resumen del artículo.
+- al menos 2 secciones con título `h2` (por ejemplo, **Biografía** y **Obra**)
+- debajo de cada título de sección, al menos 2 subsecciones con título `h3` (por ejemplo, debajo de **Biografía**, incluir **Infancia** y **Adultez**)
+- debajo de cada título de subsección, al menos 2 párrafos `p`.
 
+### Ejercicio 04 - Receta
 
-### Ejercicio 07 - Links de Wikipedia (enlaces locales)
+Buscar una receta que te interese. `index.html` debe contener:
 
+- un título `h1` con el nombre de la receta.
+- un párrafo `p` con la descripción de la receta.
+- un título `h2` que diga `Ingredientes`.
+- una lista sin ordenar que contenga los ingredientes necesarios para la receta.
+- un título `h2` que diga `Instrucciones`.
+- una lista ordenada que describa los pasos necesarios para realizar la receta.
+
+### Ejercicio 05 - Playlist
+
+`index.html` debe contener:
+
+- un título `h1` que diga: `Mis Playlists`.
+- al menos 3 títulos `h2` con nombres de playlists (por ejemplo: `Éxitos de los 80s`).
+- debajo de cada nombre de playlist:
+  - un párrafo `p` que diga: `Duración: 123 min.` (poner distintas duraciones).
+  - al menos 2 elementos en línea `span`, uno por cada género musical que contenga la playlist (por ejemplo: `pop`, `rock`, `grunge`, `90s`)
+  - un título h3 que diga: `Canciones`.
+  - una lista ordenada con nombres de canciones y bandas / cantantes (por ejemplo: `Africa, Toto`).
+
+### Ejercicio 06 - Temario
+
+`index.html` debe contener:
+
+- un título `h1` que diga lo siguiente: `Curso de desarrollo Frontend`
+- un párrafo `p` con la introducción o resumen del artículo.
+- una lista ordenada, donde cada ítem es un link con el nombre de cada sección, y que al clickearlo te lleve a la sección correspondiente.
+- 5 secciones con título `h2` que sean las siguientes: 
+  - `Introducción a HTML`.
+  - `Introducción a CSS`.
+  - `Introducción a Sass`.
+  - `Introducción a JavaScript`.
+  - `Introducción a React`.
+- debajo de cada título de sección: 
+  - 10 párrafos `p` con `lorem ipsum`.
+  - un enlace que diga `Volver arriba` y que al clickearlo te lleve al título `h1`.
 
 ### Ejercicio 07 - Portfolio (enlaces locales)
+
+Crear las siguientes páginas con los siguientes elementos:
+
+#### `index.html`
+- un título `h1` con tu nombre.
+- un párrafo `p` de introducción.
+- una lista desordenada de links que te lleven a las demás páginas (`Conocimientos`, `Experiencia`, `Contacto`).
+
+#### `conocimientos.html`
+- un título `h1` que diga `Conocimientos`.
+- una lista desordenada de habilidades
+- un link que diga `Volver atrás` y que te lleve a `index.html`.
+
+#### `experiencia.html`
+- un título `h1` que diga `Experiencia`.
+- Agregar 3 veces:
+  - un título `h2` con el nombre de una empresa (cualquiera)
+  - un elemento `p` con el período de empleo (por ejemplo, `2018-2020`)
+  - un elemento `p` con el puesto de trabajo (por ejemplo, `Desarrolladora Frontend`)
+- un link que diga `Volver atrás` y que te lleve a `index.html`.
+
+#### `contacto.html`
+- un título `h1` que diga `Contacto`.
+- un párrafo `p` que diga `Podés escribirme a ada.lovelace@gmail.com` (o cualquier otro mail).
+- un párrafo `p` con un número de teléfono (cualquiera)
+- un link que lleve a la página de Linkedin (si tenés una cuenta creada, podés hacer que el link sea a tu perfil).
+- un link que diga `Volver atrás` y que te lleve a `index.html`.
 
 
 ### Ejercicio 08 - Artículo de Blog con Imágenes
 
+`index.html` debe contener:
+
+- una imagen
+- un título `h1` con el nombre del artículo (por ejemplo **El sistema solar**).
+- un párrafo `p` con la introducción o resumen del artículo.
+- al menos 2 secciones, cada sección debe contener: 
+  - un título `h2` (por ejemplo, **El sol** o **Planetas**)
+  - al menos 3 párrafos `p`
+  - una imagen entre párrafos (entre el 1er y 2do párrafo, o entre el 2do y el 3ro)
+  
+Las imágenes tienen que estar relacionadas. Usar imágenes con links externos (absolutos).  
 
 ### Ejercicio 09 - Preview de artículo / Película (imagen / enlaces externos)
 
@@ -63,16 +152,78 @@ Enlaces Relacionados
 
 ### Ejercicio 11 - Comentarios
 
-Con links de acciones
+`index.html` debe contener:
+
+- un título `h1` que diga: `Un artículo increíble`.
+- un párrafo `p` con `lorem ipsum`.
+- un título `h2` que diga `Comentarios`.
+- 5 comentarios, con lo siguiente:
+  - un título `h3` con el handle de la usuario (por ejemplo **@adalovelace**).
+  - un `span` que diga: `Publicado hace 14 minutos` (cambiar el tiempo).
+  - un párrafo `p` con `lorem ipsum`.
 
 ### Ejercicio 12 - Cards de productos (Imágenes / Headings / Span)
 
 
 ### Ejercicio 13 - Películas (Imágenes / Headings / Span / Links locales) - Integrador
 
+Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archivos:
 
-### Ejercicio 14 - Letras de canciones (Imágenes con links / Links Locales / br) - Integrador
+#### `index.html`
 
+- un título `h1` que diga: `Bienvenida a Mis Películas`.
+- una lista desordenada con links a las demás páginas (`Populares`, `Top 3`, `Con más recaudación`).
+
+#### `populares.html`
+- un link que diga `Volver atrás` y que te lleve a `index.html`.
+- un título `h1` que diga: `Películas populares`.
+- un párrafo `p` que diga: `Las películas más exitosas en los últimos tiempos`.
+- un título `h2` que diga: `Películas`.
+- 3 películas (+).
+
+#### `top-3.html`
+- un link que diga `Volver atrás` y que te lleve a `index.html`.
+- un título `h1` que diga: `Top 3`.
+- un párrafo `p` que diga: `Las películas más exitosas de todos los tiempos`.
+- un título `h2` que diga: `Películas`.
+- 3 películas (+).
+
+#### `mas-recaudacion.html`
+
+- un link que diga `Volver atrás` y que te lleve a `index.html`.
+- un título `h1` que diga: `Películas con más recaudación`.
+- un párrafo `p` que diga: `Las películas que más entradas vendieron en los últimos 50 años`.
+- un título `h2` que diga: `Películas`.
+- 3 películas (+).
+
+(+) Cada película debe tener:
+
+- una imagen del poster de la película (usar rutas absolutas).
+- un título `h3` con el nombre de la película.
+- un párrafo `p` con la fecha de estreno.
+
+### Ejercicio 14 - Canciones
+
+#### `index.html`
+
+- un título `h1` que diga: `Mis canciones preferidas`.
+- 3 canciones, que consisten en:
+  - la imagen del poster del álbum de la canción (usar rutas relativas).
+  - un título `h2` con el nombre de la canción
+  - un elemento `p` con el nombre de la banda / artista.
+  - los 3 elementos anteriores (imagen, título, y banda/artista) deben estar anidados dentro de un único link que lleve a la página de la canción.
+  
+#### `cancion.html`
+
+- un link que diga `Volver atrás` y que te lleve a `index.html`.
+- un título `h1` con el nombre de la canción
+- un elemento en línea `span` con el nombre de la banda / artista.
+- un elemento en línea `span` con el nombre del álbum.
+- un elemento en línea `span` con el año de publicación del álbum.
+- una título `h2` que diga: `Letra`
+- párrafos `p` para la letra de la canción.
+
+El archivo no tiene que llamarse `cancion.html` sino el nombre de la canción, por ejemplo: `africa.html`
 
 ### Ejercicio 15 - Artículo completo
 
