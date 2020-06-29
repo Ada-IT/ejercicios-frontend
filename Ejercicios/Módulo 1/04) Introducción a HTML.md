@@ -32,6 +32,7 @@ Para los siguientes ejercicios:
 - En todas las páginas, crear la estructura básica de un documento HTML correspondiente (poner un título al documento que sea adecuado, por ejemplo el nombre del ejercicio).
 - A menos que se indique lo contrario, los elementos se agregan uno debajo del otro. Por ejemplo, si el ejercicio indica agregar una imagen y un párrafo, el párrafo se agrega debajo de la imagen.
 
+---
 
 ### Ejercicio 01 - Blog
 
@@ -41,6 +42,8 @@ Para los siguientes ejercicios:
 - un párrafo `p` que diga: `Por Ada Lovelace. Publicado hace 3 días`, con tu nombre en vez de `Ada Lovelace`.
 - 4 párrafos con `lorem ipsum`.
 
+---
+
 ### Ejercicio 02 - Diario personal
 
 `index.html` debe contener:
@@ -48,6 +51,8 @@ Para los siguientes ejercicios:
 - un título `h1` que diga: `Mi diario`.
 - por cada día de la semana crear un título `h2` con el nombre del día.
 - debajo de cada día de la semana, agregar un párrafo `p` que describa lo que hiciste ese día la semana pasada, por ejemplo: `Miré una nueva serie en Netflix`.
+
+---
 
 ### Ejercicio 03 - Enciclopedia
 
@@ -58,6 +63,8 @@ Buscar un artículo de Wikipedia que te interese. `index.html` debe contener:
 - al menos 2 secciones con título `h2` (por ejemplo, **Biografía** y **Obra**)
 - debajo de cada título de sección, al menos 2 subsecciones con título `h3` (por ejemplo, debajo de **Biografía**, incluir **Infancia** y **Adultez**)
 - debajo de cada título de subsección, al menos 2 párrafos `p`.
+
+---
 
 ### Ejercicio 04 - Receta
 
@@ -70,6 +77,8 @@ Buscar una receta que te interese. `index.html` debe contener:
 - un título `h2` que diga `Instrucciones`.
 - una lista ordenada que describa los pasos necesarios para realizar la receta.
 
+---
+
 ### Ejercicio 05 - Playlist
 
 `index.html` debe contener:
@@ -81,6 +90,8 @@ Buscar una receta que te interese. `index.html` debe contener:
   - al menos 2 elementos en línea `span`, uno por cada género musical que contenga la playlist (por ejemplo: `pop`, `rock`, `grunge`, `90s`)
   - un título h3 que diga: `Canciones`.
   - una lista ordenada con nombres de canciones y bandas / cantantes (por ejemplo: `Africa, Toto`).
+
+---
 
 ### Ejercicio 06 - Temario
 
@@ -99,7 +110,9 @@ Buscar una receta que te interese. `index.html` debe contener:
   - 10 párrafos `p` con `lorem ipsum`.
   - un enlace que diga `Volver arriba` y que al clickearlo te lleve al título `h1`.
 
-### Ejercicio 07 - Portfolio (enlaces locales)
+---
+
+### Ejercicio 07 - Portfolio
 
 Crear las siguientes páginas con los siguientes elementos:
 
@@ -128,8 +141,9 @@ Crear las siguientes páginas con los siguientes elementos:
 - un link que lleve a la página de Linkedin (si tenés una cuenta creada, podés hacer que el link sea a tu perfil).
 - un link que diga `Volver atrás` y que te lleve a `index.html`.
 
+---
 
-### Ejercicio 08 - Artículo de Blog con Imágenes
+### Ejercicio 08 - Blog con Imágenes
 
 `index.html` debe contener:
 
@@ -143,12 +157,18 @@ Crear las siguientes páginas con los siguientes elementos:
   
 Las imágenes tienen que estar relacionadas. Usar imágenes con links externos (absolutos).  
 
+---
+
 ### Ejercicio 09 - Preview de artículo / Película (imagen / enlaces externos)
 
 Enlaces Relacionados
 
+---
+
 ### Ejercicio 10 - Menú de navegación (Listas anidadas)
 
+
+---
 
 ### Ejercicio 11 - Comentarios
 
@@ -162,10 +182,13 @@ Enlaces Relacionados
   - un `span` que diga: `Publicado hace 14 minutos` (cambiar el tiempo).
   - un párrafo `p` con `lorem ipsum`.
 
+---
+
 ### Ejercicio 12 - Cards de productos (Imágenes / Headings / Span)
 
+---
 
-### Ejercicio 13 - Películas (Imágenes / Headings / Span / Links locales) - Integrador
+### Ejercicio 13 - Películas
 
 Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archivos:
 
@@ -202,6 +225,8 @@ Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archi
 - un título `h3` con el nombre de la película.
 - un párrafo `p` con la fecha de estreno.
 
+---
+
 ### Ejercicio 14 - Canciones
 
 #### `index.html`
@@ -224,6 +249,8 @@ Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archi
 - párrafos `p` para la letra de la canción.
 
 El archivo no tiene que llamarse `cancion.html` sino el nombre de la canción, por ejemplo: `africa.html`
+
+---
 
 ### Ejercicio 15 - Artículo completo
 
