@@ -159,7 +159,7 @@ Las imágenes tienen que estar relacionadas. Usar imágenes con links externos (
 
 ---
 
-### Ejercicio 09 - Preview de artículo / Película (imagen / enlaces externos)
+### Ejercicio 09 - Preview
 
 Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener:
 
