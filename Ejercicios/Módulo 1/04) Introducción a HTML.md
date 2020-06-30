@@ -161,16 +161,21 @@ Las imágenes tienen que estar relacionadas. Usar imágenes con links externos (
 
 ### Ejercicio 09 - Preview de artículo / Película (imagen / enlaces externos)
 
-Enlaces Relacionados
+Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener:
+
+- un título `h1` con el nombre de una película.
+- una imagen con el poster de la película.
+- un `h2` que diga: `Elenco`
+- un lista desordenada con al menos 5 nombres del elenco. Los nombres deben ser links a la página de IMDb correspondiente (por ejemplo, [Anne Hathaway](https://www.imdb.com/name/nm0004266/?ref_=nv_sr_srsg_0))
+- un título `h3` que diga: `Sinopsis`
+- un párrafo `p` con la sinopsis de la película
+- un párrafo `p` con la sinopsis de la película
+- un `h3` que diga: `Géneros`
+- un lista desordenada con al menos 3 géneros de la película. Los nombres deben ser links a la página de IMDb correspondiente de la lista de películas de dicho género (por ejemplo, [Thriller](https://www.imdb.com/search/title/?genres=thriller&explore=title_type,genres&ref_=tt_ov_inf))
 
 ---
 
-### Ejercicio 10 - Menú de navegación (Listas anidadas)
-
-
----
-
-### Ejercicio 11 - Comentarios
+### Ejercicio 10 - Comentarios
 
 `index.html` debe contener:
 
@@ -184,11 +189,22 @@ Enlaces Relacionados
 
 ---
 
-### Ejercicio 12 - Cards de productos (Imágenes / Headings / Span)
+### Ejercicio 11 - Productos
+
+`index.html` debe contener:
+
+- un título `h1` que diga: `Mi tienda`.
+- un título `h2` que diga: `Productos más comprados`.
+- 5 productos, que contengan:
+  - una imagen del producto (usar rutas absolutas).
+  - un título `h3` con el nombre del producto.
+  - al menos 3 elementos en línea `span` con distintas variaciones de producto. Por ejemplo, colores, tamaños, modelo, etc. Si se elige color, sería un `span` para cada color (rojo, verde, azul, etc). 
+  - un párrafo `p` con el precio del producto.
+  - un párrafo con un `lorem impsum`  corto
 
 ---
 
-### Ejercicio 13 - Películas
+### Ejercicio 12 - Películas
 
 Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archivos:
 
@@ -227,7 +243,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archi
 
 ---
 
-### Ejercicio 14 - Canciones
+### Ejercicio 13 - Canciones
 
 #### `index.html`
 
@@ -252,10 +268,13 @@ El archivo no tiene que llamarse `cancion.html` sino el nombre de la canción, p
 
 ---
 
-### Ejercicio 15 - Artículo completo
+### Ejercicio 14 - Artículo completo
 
-- Imágenes
-- Lista de contenidos
-- Headings
-- Span
-- Comentarios
+A partir de lo visto ejercicios anteriores, crear en un `index.html` un artículo de blog que tenga:
+
+- Una lista de contenido que lleve a cada sección
+- Al menos 3 secciones
+- Al menos 3 imágenes
+- Una lista desordenada
+- Una lista ordenada
+- Una sección de comentarios, con al menos 3 comentarios
