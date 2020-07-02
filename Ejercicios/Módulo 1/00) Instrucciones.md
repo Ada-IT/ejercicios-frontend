@@ -36,3 +36,4 @@ Para los ejercicios:
 - En todas las páginas, crear la estructura básica de un documento HTML correspondiente (poner un título al documento que sea adecuado, por ejemplo el nombre del ejercicio).
 - A menos que se indique lo contrario, las etiquetas `html` se agregan uno debajo del otro. Por ejemplo, si el ejercicio indica agregar una imagen y un párrafo, el párrafo se agrega debajo de la imagen.
 - Con los estilos, pueden inspeccionar el ejemplo para obtener los valores (colores, tamaños de fuente, etc). En demás situaciones, no es necesario que quede replicado al 100%, pero sí que sea lo más parecido posible.
+- Si las imágenes no están dadas en el ejercicio, buscá imágenes similares o de reemplazo en internet.
