@@ -1,41 +1,8 @@
 # Introducción a HTML
 
-- Dentro de la carpeta de `modulo-1-html`, crear la carpeta `clase-4-introduccion-a-html`.
-- Por cada ejercicio, crear una carpeta con el número y el nombre del ejercicio (por ejemplo `04-receta`).
-- Para archivos y carpetas, usar notación `kebab-case`:
-  - todo en minúsculas
-  - sin tildes
-  - las palabras se separan con guiones, no con espacios.
-- Dentro de la carpeta de cada ejercicio, crear un archivo `index.html`
-- Si el ejercicio tiene más páginas, dentro de la carpeta del ejercicio crear una carpeta `paginas` y agregar los archivos `html` dentro de ella.
-- Si el ejercicio tiene una o varias imágenes, dentro de la carpeta del ejercicio crear una carpeta `imagenes` y agregar las imágenes dentro de ella.
-
-```
-ada
-└── modulo-1-html
-      └── clase-4-introduccion-a-html
-            └── 08-portfolio
-                  ├── imagenes
-                  │   └── imagen.jpg
-                  ├── paginas
-                  │   ├── sobre-mi.html
-                  │   └── contacto.html
-                  └── index.html
-```
-<br>
-
 ## Ejercicios
 
-Para los siguientes ejercicios:
-- Pueden usar `lorem ipsum` para rellenar párrafos de texto.
-- Pueden copiar y pegar texto de otras páginas.
-- **¡No copien ni peguen etiquetas HTML!** Por más tedioso que sea, la repetición mecánica ayuda muchísimo a memorizar las etiquetas y la sintaxis. Si tienen que escribir 10 párrafos, escriban las 10 etiquetas `p` correspondientes.
-- En todas las páginas, crear la estructura básica de un documento HTML correspondiente (poner un título al documento que sea adecuado, por ejemplo el nombre del ejercicio).
-- A menos que se indique lo contrario, los elementos se agregan uno debajo del otro. Por ejemplo, si el ejercicio indica agregar una imagen y un párrafo, el párrafo se agrega debajo de la imagen.
-
----
-
-### Ejercicio 01 - Blog
+### 01 - Blog
 
 `index.html` debe contener:
 
@@ -45,7 +12,7 @@ Para los siguientes ejercicios:
 
 ---
 
-### Ejercicio 02 - Diario personal
+### 02 - Diario personal
 
 `index.html` debe contener:
 
@@ -55,7 +22,7 @@ Para los siguientes ejercicios:
 
 ---
 
-### Ejercicio 03 - Enciclopedia
+### 03 - Enciclopedia
 
 Buscar un artículo de Wikipedia que te interese. `index.html` debe contener:
 
@@ -80,7 +47,7 @@ Buscar una receta que te interese. `index.html` debe contener:
 
 ---
 
-### Ejercicio 05 - Playlist
+### 05 - Playlist
 
 `index.html` debe contener:
 
@@ -94,7 +61,7 @@ Buscar una receta que te interese. `index.html` debe contener:
 
 ---
 
-### Ejercicio 06 - Temario
+### 06 - Temario
 
 `index.html` debe contener:
 
@@ -113,7 +80,7 @@ Buscar una receta que te interese. `index.html` debe contener:
 
 ---
 
-### Ejercicio 07 - Portfolio
+### 07 - Portfolio
 
 Crear las siguientes páginas con los siguientes elementos:
 
@@ -144,7 +111,7 @@ Crear las siguientes páginas con los siguientes elementos:
 
 ---
 
-### Ejercicio 08 - Blog con Imágenes
+### 08 - Blog con Imágenes
 
 `index.html` debe contener:
 
@@ -160,7 +127,7 @@ Las imágenes tienen que estar relacionadas. Usar imágenes con links externos (
 
 ---
 
-### Ejercicio 09 - Preview
+### 09 - Preview
 
 Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener:
 
@@ -175,7 +142,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
 
 ---
 
-### Ejercicio 10 - Comentarios
+### 10 - Comentarios
 
 `index.html` debe contener:
 
@@ -189,7 +156,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
 
 ---
 
-### Ejercicio 11 - Productos
+### 11 - Productos
 
 `index.html` debe contener:
 
@@ -204,7 +171,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
 
 ---
 
-### Ejercicio 12 - Películas
+### 12 - Películas
 
 Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archivos:
 
@@ -243,7 +210,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archi
 
 ---
 
-### Ejercicio 13 - Canciones
+### 13 - Canciones
 
 #### `index.html`
 
@@ -268,7 +235,7 @@ El archivo no tiene que llamarse `cancion.html` sino el nombre de la canción, p
 
 ---
 
-### Ejercicio 14 - Artículo completo
+### 14 - Artículo completo
 
 A partir de lo visto ejercicios anteriores, crear en un `index.html` un artículo de blog que tenga:
 
