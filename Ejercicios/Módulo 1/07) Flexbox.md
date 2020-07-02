@@ -2,9 +2,11 @@
 
 ## Ejercicios
 
-### [01 - Dados](https://min56.csb.app/)
+Replicar los siguientes ejemplos:
 
-### [02 - Tweet](https://zf9f8.csb.app/)
+### [01 - Tweet](https://zf9f8.csb.app/)
+
+### [02 - Dados](https://min56.csb.app/)
 
 ### [03 - Profile Card](https://gl15y.csb.app/)
 
