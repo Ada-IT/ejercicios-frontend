@@ -10,11 +10,11 @@ Replicar los siguientes ejemplos:
 
 ### [03 - Banderas](https://www.countryflags.com/en/)
 
-- Crea 6 banderas, una debajo de la otra. 
+- Creá 6 banderas, una debajo de la otra. 
 - Las banderas deben 300px de ancho y 200px de alto.
 - Las banderas deben estar separadas entre sí por un margen.
 - Las banderas deben estar centradas horizontalmente respecto a la pantalla.
-- Elegir banderas con franjas horizontales o verticales (por ejemplo Argentina, México, Francia, Alemania).
+- Elegí banderas con franjas horizontales o verticales (por ejemplo Argentina, México, Francia, Alemania).
 
 ### [04 - Habilidades](https://uidesigndaily.com/posts/sketch-skills-list-card-day-929)
 
