@@ -2,7 +2,7 @@
 
 ## Ejercicios
 
-Crear la estructura HTML de los siguientes ejemplos. Poner nombres de clases semánticos siguiendo las buenas prácticas.
+Crear la estructura HTML de los siguientes ejemplos (sin estilos). Poner nombres de clases semánticos siguiendo las buenas prácticas.
 
 ### [01 - Blog Post Card](https://uidesigndaily.com/posts/sketch-blog-post-article-thumbnail-day-596)
 
