@@ -20,4 +20,13 @@ Replicar los siguientes ejemplos:
 
 ### [08 - Modal Reunión Finalizada](https://uidesigndaily.com/posts/sketch-meeting-ended-modal-pop-up-components-dark-ui-theme-day-1107)
 
-### [09 - Footer](https://uidesigndaily.com/posts/sketch-footer-website-day-1014)
+### [09 - Calculadora](https://codepen.io/JakeCobley/full/XENQYL)
+
+### [10 - Footer](https://uidesigndaily.com/posts/sketch-footer-website-day-1014)
+<br>
+
+## Extra
+
+### 11 - Tabla periódica
+
+Replicar una tabla periódica (buscar alguna en internet) y replicarla. No incluir toda la información de los elementos, con el símbolo y el nombre es suficiente.
