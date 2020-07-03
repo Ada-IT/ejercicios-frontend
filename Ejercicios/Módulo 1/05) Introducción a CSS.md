@@ -30,7 +30,11 @@
 
 - `index.html` debe tener:
 
-- al menos 10 elementos en línea `span`, que deben contener cada uno un emoji  (por ejemplo, de árboles y/o edificios). Dar aca emoji un tamaño de letra distinto para haya variedad entre ellos. 
+- al menos 10 elementos en línea `span`, que deben contener cada uno un emoji  (por ejemplo, de árboles y/o edificios). Por ejemplo: 
+```
+🌲🌳🌳🏠🏢🏦🏠🏠🌲🌳
+```
+- cada emoji debe tener un tamaño de letra distinto para que haya variedad entre ellos. 
 
 ### 05 - Alineación
 
@@ -68,11 +72,7 @@
 - poner las temperaturas extremas (0°C y 50°C) en negrita.
 - dar a cada temperatura un color distinto, cambiando gradualmente, siendo el 0°C el color azul y 50°C el color rojo. [Ver ejemplo](https://cdn.shopify.com/s/files/1/2303/2711/files/colour_temperature_kelvin_chart_make_up.jpg?v=1513856014).
 
-### 08 - Artículos
-
-### 09 - Producto
-
-### 10 - Cuenta Bancaria
+### 08 - Cuenta Bancaria
 
 - `index.html` debe tener:
 
@@ -104,7 +104,7 @@ Cobro de sueldo
 - Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
 - Si el monto es un ingreso, debe tener un color verde, si es una salida, debe tener un color verde.
 
-### 11 - Tareas
+### 09 - Tareas
 
 
 - `index.html` debe tener:
@@ -140,7 +140,7 @@ Hecha
   - Hecha: Verde
   - Cancelada: Rojo
 
-### 12 - Reacciones
+### 10 - Reacciones
 
 - `index.html` debe tener:
 
