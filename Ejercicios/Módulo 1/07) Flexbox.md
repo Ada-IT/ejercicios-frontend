@@ -29,4 +29,4 @@ Replicar los siguientes ejemplos:
 
 ### 11 - Tabla periódica
 
-Replicar una tabla periódica (buscar alguna en internet) y replicarla. No incluir toda la información de los elementos, con el símbolo y el nombre es suficiente.
+Replicar una tabla periódica (buscar alguna en internet). No incluir toda la información de los elementos, con el símbolo y el nombre es suficiente.
