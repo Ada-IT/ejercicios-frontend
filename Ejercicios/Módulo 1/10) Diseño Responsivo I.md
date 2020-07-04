@@ -1,10 +1,10 @@
 # Diseño Responsivo I
 
-## Ejercicio X
+## Ejercicios
 
-- Crear un archivo `index.html`.
-- Crear la estructura principal de un documento HTML.
-- Dentro del `body`, agregar una etiqueta `h1` con el texto `¡Mirame cambiar de color!`.
+### 01 - Colores
+
+- Agregar una etiqueta `h1` con el texto `¡Mirame cambiar de color!`.
 - Hacer que el `body` ocupe todo el alto y el ancho de la pantalla.
 - Centrar el `h1` vertical y horizontalmente.
 - Dar al `body` un color de fondo.
@@ -16,11 +16,9 @@
   - Cuando la pantalla tiene menos de 600px, el `h1` debería tener 24px de tamaño de fuente.
 - En cada breakpoint, cambiar el color de fondo del `body`.
 
-## Ejercicio X
+### XX - Header
 
-- Crear un archivo `index.html`.
-- Crear la estructura principal de un documento HTML.
-- Agregar dentro del `body` un `header`, con una navegación y una lista de links.
+- Agregar un `header`, con una navegación y una lista de links.
 - Poner 4 links (p. ej.: Sobre mí, Servicios, Proyectos y Contacto).
 - Dar al `header` un color de fondo.
 - Dar a los links los siguientes estilos: tipografía, tamaño de letra y color. Sacar el subrayado que viene por defecto en los links.
@@ -30,3 +28,7 @@
 - Poner un breakpoint para que cuando el ancho de la pantalla esté por cubrir los links, los links se oculten y en un su lugar aparezca un ícono.
 - Usar [este](https://fontawesome.com/icons/bars?style=solid) ícono de Font Awesome.
 - El ícono tiene que estar alineado a la derecha en el `header`.
+
+### XX - Servicios I
+
+### XX - Card
