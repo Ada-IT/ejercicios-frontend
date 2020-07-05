@@ -18,6 +18,8 @@
 - Para el tamaño de letra, usar unidades relativas y no absolutas (`em`).
 - Poner un breakpoint que modifique el `font-size` del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los tamaños en simultáneo.
 
+---
+
 ### 02 - Posts de blogs
 
 `index.html` debe contener:
@@ -36,17 +38,25 @@
 - Para el tamaño de letra, usar unidades relativas y no absolutas (`em`).
 - Poner dos breakpoints que modifiquen el `font-size` del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los tamaños en cada breakpoint.
 
+---
+
 ### 03 - Layout I
 
 Replicar el [siguiente ejemplo](https://ce7du.csb.app/) con breakpoints incluidos.
+
+---
 
 ### 04 - Layout II
 
 Replicar el [siguiente ejemplo](https://4ntmp.csb.app/) con breakpoints incluidos.
 
+---
+
 ### 05 - Layout III
 
 Replicar el [siguiente ejemplo](https://9eoom.csb.app/) con breakpoints incluidos.
+
+---
 
 ### 06 - Grilla de imágenes
 
@@ -61,6 +71,8 @@ Replicar el [siguiente ejemplo](https://9eoom.csb.app/) con breakpoints incluido
 - Las imágenes de la grilla deben estar espaciadas entre sí con márgenes.
 - Las imágenes de la grilla inicialmente deben tener una disposición de 4 imágenes por fila.
 - Agregar breakpoints para que, a medida que la resolución se vaya achicando, la grilla cambie a 3 imágenes por fila, luego 2 imágenes por fila y finalmente 1 imagen por fila.
+
+---
 
 ### 07 - Grilla de productos
 
