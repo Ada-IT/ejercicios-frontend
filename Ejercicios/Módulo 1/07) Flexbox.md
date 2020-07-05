@@ -14,7 +14,7 @@ Replicar los siguientes ejemplos:
 
 ### [05 - Servicios I](https://1exqr.csb.app/)
 
-### [06 - Servicios II]()
+### [06 - Servicios II](https://m403i.csb.app/)
 
 ### [07 - Precios](https://d88zw.csb.app/)
 
