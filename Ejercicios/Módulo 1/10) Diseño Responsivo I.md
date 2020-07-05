@@ -16,7 +16,7 @@
   - Cuando la pantalla tiene menos de 600px, el `h1` debería tener 24px de tamaño de fuente.
 - En cada breakpoint, cambiar el color de fondo del `body`.
 
-### XX - Header
+### 02 - Header
 
 - Agregar un `header`, con una navegación y una lista de links.
 - Poner 4 links (p. ej.: Sobre mí, Servicios, Proyectos y Contacto).
@@ -29,6 +29,12 @@
 - Usar [este](https://fontawesome.com/icons/bars?style=solid) ícono de Font Awesome.
 - El ícono tiene que estar alineado a la derecha en el `header`.
 
-### XX - Servicios I
+### 03 - Servicios I
 
-### XX - Card
+- Repetir el ejercicio de [Servicios I](https://1exqr.csb.app/) de la clase [07) Flexbox](https://github.com/Ada-IT/ejercicios-frontend/blob/master/Ejercicios/M%C3%B3dulo%201/07)%20Flexbox.md) 
+- Agregarle un breakpoint para mobile, de modo tal que los servicios queden uno debajo del otro.
+- En dicho breakpoint, tanto los textos como los íconos tienen que quedar centrados horizontalmente.
+
+### 05 - Card de Producto
+
+- Replicar la siguiente [card de producto](https://mnyo0.csb.app/), responsive incluido
