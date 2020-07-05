@@ -31,7 +31,7 @@
 
 ### 03 - Servicios I
 
-- Repetir el ejercicio de [Servicios I](https://1exqr.csb.app/) de la clase [07) Flexbox](https://github.com/Ada-IT/ejercicios-frontend/blob/master/Ejercicios/M%C3%B3dulo%201/07)%20Flexbox.md) 
+- Repetir el ejercicio de [Servicios I](https://1exqr.csb.app/) de la clase 07 - Flexbox.
 - Agregarle un breakpoint para mobile, de modo tal que los servicios queden uno debajo del otro.
 - En dicho breakpoint, tanto los textos como los íconos tienen que quedar centrados horizontalmente.
 
