@@ -37,4 +37,6 @@ Para los ejercicios:
 - A menos que se indique lo contrario, las etiquetas `html` se agregan uno debajo del otro. Por ejemplo, si el ejercicio indica agregar una imagen y un párrafo, el párrafo se agrega debajo de la imagen.
 - Con los estilos, pueden inspeccionar el ejemplo para obtener los valores (colores, tamaños de fuente, etc). En demás situaciones, no es necesario que quede replicado al 100%, pero sí que sea lo más parecido posible.
 - Cuando no se especifiquen valores de propiedad estilos y no hay ejemplo para inspeccionar, pueden jugar con distintos valores o poner alguno arbitrario.
-- Si las imágenes no están dadas en el ejercicio, buscá imágenes similares o de reemplazo en internet.
+- Si las imágenes no están dadas en el ejercicio, busquen imágenes similares o de reemplazo en internet. Si el ejercicio tiene muchas imágenes, pueden repetir algunas imágenes.
+- **No se preocupen por dejar los ejercicios visualmente agradables**. Lo importante de los ejercicios es poner en práctica los conceptos vistos en clases, cómo se ve no es tan prioritario como que sea funcional (en estas instancias). En los proyectos sí le vamos a dar más énfasis al acabado visual.
+- Por más que el ejercicio no lo indique explícitamente, a medida que las vayan aprendiendo e incorporando, **usen siempre buenas prácticas*.
