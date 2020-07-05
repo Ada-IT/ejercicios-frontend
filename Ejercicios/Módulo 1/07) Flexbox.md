@@ -12,9 +12,9 @@ Replicar los siguientes ejemplos:
 
 ### [04 - Card de estadísticas](https://uidesigndaily.com/posts/sketch-stats-card-statistics-cards-day-1119)
 
-### [05 - Servicios](https://1exqr.csb.app/)
+### [05 - Servicios I](https://1exqr.csb.app/)
 
-### [06 - Servicios Variante]()
+### [06 - Servicios II]()
 
 ### [07 - Precios](https://d88zw.csb.app/)
 
