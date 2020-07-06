@@ -27,6 +27,10 @@ Replicar los siguientes ejemplos:
 
 ## Extra
 
-### 11 - Tabla periódica
+### [XX - Modal Compartir](https://uidesigndaily.com/posts/sketch-share-modal-pop-up-day-1118)
+
+### [XX - Paleta de Colores](https://uidesigndaily.com/posts/sketch-color-palette-generator-picker--day-1114)
+
+### 11 - Tabla Periódica
 
 Replicar una tabla periódica (buscar alguna en internet). No incluir toda la información de los elementos, con el símbolo y el nombre es suficiente.
