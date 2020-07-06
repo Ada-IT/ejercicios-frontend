@@ -25,9 +25,6 @@ Replicar los siguientes ejemplos:
 ### [10 - Calculadora](https://codepen.io/JakeCobley/full/XENQYL)
 
 ### [11 - Footer](https://uidesigndaily.com/posts/sketch-footer-website-day-1014)
-<br>
-
-## Extra
 
 ### [12 - Modal Compartir](https://uidesigndaily.com/posts/sketch-share-modal-pop-up-day-1118)
 
