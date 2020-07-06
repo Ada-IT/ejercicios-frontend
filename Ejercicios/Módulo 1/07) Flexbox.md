@@ -33,6 +33,8 @@ Replicar los siguientes ejemplos:
 
 ### [13 - Paleta de Colores](https://uidesigndaily.com/posts/sketch-color-palette-generator-picker--day-1114)
 
-### 14 - Tabla Periódica
+### [14 - Review](https://uidesigndaily.com/posts/figma-ratings-card-review-rating-day-1113)
+
+### 15 - Tabla Periódica
 
 Replicar una tabla periódica (buscar alguna en internet). No incluir toda la información de los elementos, con el símbolo y el nombre es suficiente.
