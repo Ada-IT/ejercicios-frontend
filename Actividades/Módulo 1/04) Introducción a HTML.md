@@ -25,4 +25,8 @@ Recuerden:
 ```
 <br>
 
-Una vez que todas terminaron, van a tener que subir los cambios al repositorio. Para eso, primero tienen que commitear todo, y antes de pushear, van a tener que pullear los cambios. **Háganlo una a la vez, así evitan conflictos con el código.**
+Una vez que todas terminaron, van a tener que subir los cambios al repositorio. Para eso, primero tienen que commitear todo, *y antes de pushear*, van a tener que pullear los cambios. **Háganlo una a la vez, así evitan conflictos con el código.** Es orden a seguir es:
+- Agregar archivos
+- Commitear
+- Hacer un pull
+- Pushear
