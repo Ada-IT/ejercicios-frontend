@@ -8,11 +8,11 @@
 - Cada una debe crear, dentro de la carpeta del repositorio clonado, un archivo con extensión `.html` y con su propio nombre. Por ejemplo, `ada.html`. Quien creó el repositorio, en vez de ponerle su nombre al archivo, debe llamarlo `index.html`.
 - En su archivo `html`, cada una debe agregar:
     - Un `h1` con su nombre y un saludo de bienvenida
-    - Un `h2` que siga "Sobre mí"
+    - Un `h2` que diga `Sobre mí`
     - Un `p` con una breve descripción personal.
     - Una lista ordenada del TOP 5 de algún tópico (películas, comidas, canciones, etc.).
     - Una imagen de algo que les guste, sacada de internet, usando rutas absolutas.
-    - Un `h2` que diga "Mis compañeras"
+    - Un `h2` que diga `Mis compañeras`
     - Una lista desordenada con el nombre de las compañeras. Cada nombre tiene que tener un link que lleve a las páginas realizadas por las compañeras. Todavía no van a tener los demás archivos, pero cuando los vayan subiendo esos links van a comenzar a funcionar. **Recuerden usar rutas relativas**.
 <br>
 
