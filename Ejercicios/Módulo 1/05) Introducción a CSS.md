@@ -58,12 +58,28 @@
 
 ### 06 - Frutas
 
-- `index.html` debe tener:
+`index.html` debe tener:
 
 - una lista desordenada con al menos 10 frutas.
 - cada fruta debe tener un color que la represente (por ejemplo, manzana de color rojo, banana de color amarillo, kiwi de color verde).
 
-### 07 - Termómetro
+### 07 - Paleta de Colores
+
+- `index.html` debe tener:
+
+- un título `h1` que diga: `Mis paletas`
+- 3 paletas de colores, que consisten en:
+  - un título `h2` con el nombre de la paleta (por ejemplo: `Moderna`)
+  - una lista desordenada con 5 ítems
+  - cada ítem debe tener como texto código del color, en el sistema correspondiente (por ejemplo, si es blanco y está en hexadecimal #FFFFFF)
+
+- Poner un tipografía distinta a la default.
+- Dar a los títulos un tamaño de fuente distinto al default.
+- Cada ítem debe de tener de color de fondo el color que representa (por ejemplo, si representa el color negro, tener de color de fondo dicho color).
+- Tener en cuenta el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa.
+- Los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
+
+### 08 - Termómetro
 
 - `index.html` debe tener:
 
@@ -72,9 +88,9 @@
 - poner las temperaturas extremas (0°C y 50°C) en negrita.
 - dar a cada temperatura un color distinto, cambiando gradualmente, siendo el 0°C el color azul y 50°C el color rojo. [Ver ejemplo](https://cdn.shopify.com/s/files/1/2303/2711/files/colour_temperature_kelvin_chart_make_up.jpg?v=1513856014).
 
-### 08 - Cuenta Bancaria
+### 09 - Cuenta Bancaria
 
-- `index.html` debe tener:
+`index.html` debe tener:
 
 - un título `h1` que diga: `Mi cuenta`.
 - un título `h2` que diga: `Últimos movimientos`.
@@ -104,10 +120,10 @@ Cobro de sueldo
 - Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
 - Si el monto es un ingreso, debe tener un color verde, si es una salida, debe tener un color verde.
 
-### 09 - Tareas
+### 10 - Tareas
 
 
-- `index.html` debe tener:
+`index.html` debe tener:
 
 - un título `h1` que diga: `Mis tareas`.
 - un título `h2` que diga: `Tareas para hoy`.
@@ -140,9 +156,9 @@ Hecha
   - Hecha: Verde
   - Cancelada: Rojo
 
-### 10 - Reacciones
+### 11 - Reacciones
 
-- `index.html` debe tener:
+`index.html` debe tener:
 
 - un título `h2` que diga: `Comentarios`.
 - agregar 5 comentarios, que deben tener:
