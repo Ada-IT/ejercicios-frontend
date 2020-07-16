@@ -19,15 +19,6 @@ Cuando la consigna pida ingresar algo hacerlo mediante un `prompt`, y cuando pid
 **Dirección completa**
 - Crear un programa que pida al usuario ingresar, por separado, la calle, el número, el departamento, el código postal, la ciudad y el país, y muestre un mensaje con toda la dirección completa, p.ej.: "La dirección que ha ingresado es: Calle Falsa 123 3C, 1414, CABA, Argentina".
 
-**Meses por día**
-- Crear variables que contengan `arrays` de `strings` con los nombres de meses, un array para meses de 31 días, uno para de 30, y otro para 29. Completar cada array con los nombres correspondientes. Mostrarlos en un mensaje indicando cuál es cuál, p.ej: "Meses con 31 días: Enero, Marzo, Mayo...".
-
-**Miembros de la familia**
-- Crear una variable que contengan un `array` de `strings` con los nombres de integrantes de la familia y completarlo con todos o algunos nombres. Mostrarlos en un mensaje que los liste.
-
-**Listas de gustos**
-- Crear variables que contengan `arrays` de `strings` con los nombres de distintas categorías de gustos, por ejemplo, películas, cantantes, libros. Completar cada array con algunos valores. Mostrarlos en un mensaje indicando cuál es cuál.
-
 **Años perro**
 - Crear un programa que pida ingresar una edad y devuelva el equivalente de esas edad en años perro.
 
@@ -69,9 +60,6 @@ Cuando la consigna pida ingresar algo hacerlo mediante un `prompt`, y cuando pid
 
 **Cantidad de caracteres**
 - Crear un programa que pida al usuario ingresar un texto y muestre un mensaje con la cantidad de caracteres que tiene ese texto. **INVESTIGAR CÓMO HACERLO**
-
-**Días de vacaciones**
-- Crear un programa que pida al usuario ingresar cuántos años lleva trabajando en una empresa, y le devuelva la cantidad de días de vacaciones al año que le corresponden, siendo 15 días hasta 3 años y 2 días más por cada año extra (p. ej.: a 6 años corresponden 21 días). 
 
 **Cantidad de huéspedes**
 - Crear un programa que pida al usuario ingresar, de a uno por vez, cuántas habitaciones tiene un hotel para 2, 3 y 4 personas, y muestre el máximo de huéspedes que puede albergar.
