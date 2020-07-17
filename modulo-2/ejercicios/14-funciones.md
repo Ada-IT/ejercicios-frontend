@@ -143,6 +143,26 @@ calcularPorcentaje(10, 50) // 5
 calcularPorcentaje(200, 10) // 20
 ```
 
+### `sumarPorcentaje(numero, porcentaje)`
+
+Crear una función `sumarPorcentaje` que tome como argumentos un número y un porcentaje y devuelva la suma de dicho número con la de su porcentaje. Usar la función `calcularPorcentaje` para obtener el porcentaje a sumar
+
+```javascript
+sumarPorcentaje(100, 15) // 115
+sumarPorcentaje(10, 50) // 15
+sumarPorcentaje(200, 10) // 220
+```
+
+### `restarPorcentaje(numero, porcentaje)`
+
+Crear una función `restarPorcentaje` que tome como argumentos un número y un porcentaje y devuelva la resta de dicho número con la de su porcentaje. Usar la función `calcularPorcentaje` para obtener el porcentaje a restar
+
+```javascript
+restarPorcentaje(100, 15) // 85
+restarPorcentaje(10, 40) // 6
+restarPorcentaje(200, 10) // 180
+```
+
 ### `calcularFPS(fps, minutos)`
 
 FPS son _cuadros por segundo_ (_frames per second_). Crear una una función `calcularFPS` que tome como argumentos una cantidad de cuadros por segundo y una cantidad de minutos, y devuelva cuántos cuadros hubo en esa cantidad de minutos
