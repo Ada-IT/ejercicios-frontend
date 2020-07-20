@@ -114,6 +114,15 @@ const grito = gritar(saludo)
 console.log(grito) // ¡Hola Ada Lovelace, un gusto conocerte!
 ```
 
+### obtenerDatosDeCiudad(nombre, poblacion, pais)
+
+Crear una función `obtenerDatosDeCiudad` que tome como argumentos un string `nombre`, un número `poblacion` y un string `pais` y devuelva string con el siguiente formato: `La ciudad de NOMBRE tiene una población de POBLACION habitantes y está ubicada en PAIS`
+
+```javascript
+obtenerDatosDeCiudad('Santa Fe', 545606, 'Argentina') // 'La ciudad de Santa Fe tiene una población de 545606 habitantes y está ubicada en Argentina'
+```
+
+
 ### `convertirHorasEnSegundos(horas)`
 
 Crear una función `convertirHorasEnSegundos` que tome como argumento un número de horas y devuelva la conversión a segundos de dicha cantidad de horas
@@ -239,13 +248,6 @@ calcularPuntaje(0, 2, 1) // 20
 calcularPuntaje(5, 1, 2) // 40
 ```
 
-### obtenerDatosDeCiudad(nombre, poblacion, pais)
-
-Crear una función `funcion` que tome como argumento un `argumento` y devuelva ... o `false` de lo contrario
-
-```javascript
-```
-
 ### `aceptaDeposito(monto)`
 
 Crear una función `aceptaDeposito` que tome como argumento un número `monto` y devuelva `true` si el `monto` es divisible por 10 o `false` si no lo es
@@ -256,5 +258,3 @@ aceptaDeposito(123) // false
 aceptaDeposito(500.50) // false
 aceptaDeposito(1000) // true
 ```
-
-
