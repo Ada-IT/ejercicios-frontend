@@ -2,9 +2,9 @@
 
 ## Ejercicios
 
-### `sonIgualLongitu(a, b)`
+### `tienenMismaLongitud(a, b)`
 
-Crear una función `igualLongitud` que tome como argumentos dos strings `a` y `b` y devuelva `true` si tienen la misma longitud o `false` de lo contrario
+Crear una función `tienenMismaLongitud` que tome como argumentos dos strings `a` y `b` y devuelva `true` si tienen la misma longitud o `false` de lo contrario
 
 ```javascript
 igualLongitud('javascript', 'java') // false
