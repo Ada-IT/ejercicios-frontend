@@ -172,3 +172,89 @@ calcularFPS(1, 1) // 60
 calcularFPS(10, 2) // 1200
 calcularFPS(2, 3) // 360
 ```
+
+
+### `obtenerCompetencia(a, b)`
+
+Crear una función `obtenerCompetencia` que tome como argumentos dos strings `a` y `b` y devuelva un string con el formato `a vs. b`
+
+```javascript
+obtenerRivales('JavaScript', 'Python') // `JavaScript vs. Python`
+obtenerRivales('Coca', 'Pepsi') // `Coca vs. Pepsi`
+obtenerRivales('Perros', 'Gatos') // `Perros vs. Gatos`
+```
+
+### `generarEmail(usuario, dominio)`
+
+Crear una función `generarEmail` que tome como argumentos dos string `usuario` y `dominio` y el un string email con el formato `usuario@dominio.com`
+
+```javascript
+generarEmail('adalovelace', 'gmail') // 'adalovelace@gmail.com'
+```
+
+### `esMayorDeEdad(edad)`
+
+Crear una función `esMayorDeEdad` que tome como argumento un número `edad` y devuelva `true` si es mayor de edad (18 o más) o `false` de lo contrario
+
+```javascript
+esMayorDeEdad(15) // false
+esMayorDeEdad(18) // true
+esMayorDeEdad(27) // true
+```
+
+### `haceCalor(temperatura)`
+
+Crear una función `haceCalor` que tome como argumento un número `temperatura` y devuelva `true` si hace calor (22 grados o más) o `false` de lo contrario
+
+```javascript
+haceCalor(12) // false
+haceCalor(22) // true
+haceCalor(32) // true
+```
+
+### `haceFrio(temperatura)`
+
+Crear una función `haceCalor` que tome como argumento un número `temperatura` y devuelva `true` si hace frio (12 grados o menos) o `false` de lo contrario
+
+```javascript
+haceFrio(12) // true
+haceFrio(22) // false
+haceFrio(3) // true
+haceFrio(-2) // true
+```
+
+### `calcularPuntaje(facil, normal, dificil)`
+
+Crear una función `calcularPuntaje` que calcule el puntaje de un examen que consiste en ejercicios de distinto nivel. Debe tomar como argumento tres que consisten en la cantidad de ejercicios resueltos en cada nivel y devolver un número con el puntaje correspondiente. El puntaje se calcula de la siguiente forma:
+
+```
+facil: 3 puntos
+normal: 5 puntos
+dificil: 10 puntos
+```
+
+```javascript
+calcularPuntaje(3, 0, 0) // 9
+calcularPuntaje(0, 2, 1) // 20
+calcularPuntaje(5, 1, 2) // 40
+```
+
+### obtenerDatosDeCiudad(nombre, poblacion, pais)
+
+Crear una función `funcion` que tome como argumento un `argumento` y devuelva ... o `false` de lo contrario
+
+```javascript
+```
+
+### `aceptaDeposito(monto)`
+
+Crear una función `aceptaDeposito` que tome como argumento un número `monto` y devuelva `true` si el `monto` es divisible por 10 o `false` si no lo es
+
+```javascript
+aceptaDeposito(440) // true
+aceptaDeposito(123) // false
+aceptaDeposito(500.50) // false
+aceptaDeposito(1000) // true
+```
+
+
