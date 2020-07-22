@@ -78,7 +78,7 @@ Crear un documento `html` con 12 imágenes de posters de películas. Buscar imá
 
 Crear dos contenedores, uno para imágenes y otro para favoritos. En el contenedor de imágenes, agregar al menos 10 imágenes (cualesquiera). Al clickear una imagen en el contenedor de imágenes, se debe agregar la misma imagen en el contenedor de favoritos. Al clickear una imagen en el contenedor de favoritos, se debe eliminar  la imagen seleccionada de dicho contenedor.
 
-### color-aleatorio (con espacio)
+### color-aleatorio
 
 Hacer un programa que al apretar la tecla espacio, cambie el color de fondo del body por un color aleatorio. Para eso, crear una función `obtenerColorAleatorio()` que devuelva un string con el formato de ejemplo `rgb(0,0,0)` donde los valores de `r`, `g` y `b` se generan aleatoriamente (con números del 1 al 255).
 
