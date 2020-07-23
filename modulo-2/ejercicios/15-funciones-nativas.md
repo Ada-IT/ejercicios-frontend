@@ -29,7 +29,7 @@ esValida('contraseniaMuySegura') // true
 esValida('abc123') // false
 ```
 
-### `sonIguales(a, b)` (insensitive case)
+### `sonIguales(a, b)`
 
 Crear una función `sonIguales` que tome como argumentos dos strings `a` y `b` y devuelva `true` si ambos strings tienen el mismo contenido independientes del caso y `false` en caso contrario.
 
