@@ -16,7 +16,7 @@ Replicar los siguientes ejemplos:
 - Las banderas deben estar centradas horizontalmente respecto a la pantalla.
 - Elegí banderas con franjas horizontales o verticales (por ejemplo Argentina, México, Francia, Alemania).
 
-### [03 - Barras de Progreso](https://www.countryflags.com/en/)
+### [03 - Barras de Progreso](https://ck9cu.csb.app/)
 
 - Creá 5 barras de progreso usando un div dentro de otro
 - Las barras deben tener 500px de ancho y 30px de alto
