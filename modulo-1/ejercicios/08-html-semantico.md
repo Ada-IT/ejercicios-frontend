@@ -95,7 +95,4 @@ Crear la estructura HTML de una página personal (sin estilos) usando etiquetas 
 
 <br>
 
-## Ejercicio 4 - Dashboard
-
-
 
