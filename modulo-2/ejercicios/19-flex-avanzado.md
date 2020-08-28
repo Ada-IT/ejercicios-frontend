@@ -22,24 +22,17 @@ Para los ejercicios 3, 4 y 5, no te preocupes por el contenido y los estilos. Po
 
 ### 3) Card de película
 
-Crear una card de película con los siguientes datos:
+Crear una card de película con los siguientes datos: póster de la película, título, descripción, año y género
 
-- Foto de la película
-- Título
-- Descripción
-- Año
-- Género
+Por ejemplo:
+
+![](https://i.ibb.co/z6hKMWp/Screen-Shot-2020-08-28-at-17-10-56.png)
 
 - La card debe tener un ancho y un alto fijo.
 - La card debe estar centrada con respecto al ancho y al alto de la pantalla.
 - La imagen debe tener un ancho fijo.
 - El contenedor de la información de la película debe ocupar el ancho disponible (con `flex-grow`) y el 100% del alto de la card.
 - La descripción debe ocupar el alto disponible.
-
-Ejemplo:
-
-![](https://i.ibb.co/z6hKMWp/Screen-Shot-2020-08-28-at-17-10-56.png)
-
 
 ### 4) Layout
 
@@ -62,7 +55,7 @@ La disposición de los elementos deberá verse similar a este:
 
 ![](https://i.ibb.co/y89xx8K/Screen-Shot-2020-08-28-at-17-40-59.png)
 
-- `body` debe ocupar todo el alto de la pantalla.
+- `body` y el contenedor general deben ocupar todo el alto de la pantalla.
 - El header y el footer deben tener un alto fijo. 
 - Foto e Icono deben tener un ancho fijo.
 - Nombre debe ocupar todo el ancho disponible restante.
