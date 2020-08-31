@@ -25,6 +25,8 @@ Se debe colocar un check para saber que el usuario acepta los términos de uso d
 
 **No es necesario agregarles estilos**
 
+---
+
 ### Carga de productos
 
 Crearemos un formulario para la carga rápida de productos para una empresa de bicicletas. Para eso mostraremos los siguientes campos:
@@ -51,6 +53,8 @@ Tanto el `select` como los `radio` deben tener el atributo `value` con el mismo 
 
 **No es necesario agregarles estilos**
 
+---
+
 ### Pago
 
 ¡Es momento de pagar! para ello necesitaremos los datos de una tarjeta para que puedan realizar la compra.
@@ -66,7 +70,9 @@ Crearemos un formulario con los siguientes datos:
 
 **No es necesario agregarles estilos**
 
-### Registro (con estilos)
+---
+
+### Registro de cliente (con estilos)
 
 Es momento de darle color a nuestros formularios. Utilizaremos el formulario de registro que hemos realizado anteriormente y seguiremos los siguientes pasos:
 
@@ -83,6 +89,8 @@ Se debe lograr una maqueta similar a la siguiente:
 
 ![alt text](https://i.ibb.co/9rPNFRV/formulario-fw.png)
 
+---
+
 ### Diseños
 
 Tenemos encargado replicar los siguientes diseño lo más parecido que podamos. Para eso, ignoraremos cosas que aún no hemos visto, como:
@@ -91,6 +99,8 @@ Tenemos encargado replicar los siguientes diseño lo más parecido que podamos. 
 - hacer que `radio buttons` y `checkbox` se vean distintos a los estilos por default
 - hacer que `selects` tengan una flecha diferente
   En caso de que no tengamos información sobre colores, fuentes o imágenes, podemos hacer uso de cualquiera que creamos conveniente o que se parezca a la utilizada.
+  
+**Links**
 
 - [Foro](https://uidesigndaily.com/posts/sketch-forum-components-card-dropdown-list-form-day-1153) (Solo el componente que dice **Create a new topic**)
 - [Autenticación](https://uidesigndaily.com/posts/sketch-login-log-in-authentication-day-559)
