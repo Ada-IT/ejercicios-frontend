@@ -1,4 +1,4 @@
-# Selectores
+# Selectores avanzados y Pseudo clases
 
 ## Consigna
 
