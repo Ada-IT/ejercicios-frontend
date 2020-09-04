@@ -23,7 +23,7 @@ Crear una página que:
 
 Crear una página que:
 
-- Tenga tres `input`s num´ericos, con valor mínimo 0 y valor máximo 255, uno para el valor R (red), otro para el valor G (green) y otro para el valor B (blue).
+- Tenga tres `input`s numéricos, con valor mínimo 0 y valor máximo 255, uno para el valor R (red), otro para el valor G (green) y otro para el valor B (blue).
 - Todos los `input`s comiencen con el valor 255.
 - Cuando se modifica algún `input`, se cambie el color de fondo del `body` con el color que se forma a partir de dichos valores.
 
@@ -104,7 +104,7 @@ La conversión se realiza con la fórmula: `VALOR_INGRESADO * VALOR_UNIDAD / VAL
 Crear una página que:
 
 - Tenga un `input` para la url de la imagen, un `input` para el título, un `textarea` para la descripción, un `input` para la url externo y un `checkbok` que diga `Link externo`
-- Tenga una card simple y estilizada con: imagen, título, descripci´ón, y un link que diga `Ver más`.
+- Tenga una card simple y estilizada con: imagen, título, descripción, y un link que diga `Ver más`.
 - A medida que se modifiquen los campos, se modifique respectivamente los distintos elementos de la card.
 - Si el `checkbox` no está seleccionado, el link `Ver más` no se muestre y el `input` de la url externa se deshabilite.
 - Si el `checkbox` está seleccionado, el link `Ver más` se muestre y el `input` de la url externa se habilite.
@@ -194,6 +194,8 @@ Por lo que el resultado deberá corresponder al siguiente para el puntaje total:
 - **8-10:** Satisfecho
 - **11-12:** Muy satisfecho
 
+---
+
 ### Tarjeta de crédito (Validación)
 
 Realizaremos una validación sobre el formulario del ejercicio [Pago](https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/21-formularios.md).
@@ -218,6 +220,8 @@ Aplicaremos las siguientes validaciones:
 En el Paso 1: Usaremos `blur` y `change`
 
 Mientras que las validaciones del Paso 2 y Paso 3 las haremos antes de intentar enviar el formulario.
+
+---
 
 ### Registro (Validación)
 
