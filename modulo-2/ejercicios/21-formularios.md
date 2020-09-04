@@ -66,7 +66,7 @@ Crearemos un formulario con los siguientes datos:
 
 **No es necesario agregarles estilos**
 
-### Registro (con estilos)
+### Registro de cliente (con estilos)
 
 Es momento de darle color a nuestros formularios. Utilizaremos el formulario de registro que hemos realizado anteriormente y seguiremos los siguientes pasos:
 
