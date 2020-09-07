@@ -31,6 +31,8 @@ button {
 - Agregarles un contorno al hacer foco con `box-shadow`.
 - Diferenciar los estados `:hover` y `:active` haciendo que el color de fondo se aclare o oscurezca, manteniendo una relación de contraste accesible.
 
+---
+
 ### Íconos accesibles
 
 - A 3 de los botones anteriores, agregarles un ícono junto al texto. Al ícono darle un atributo `aria-hidden="true"` adecuado para que no sea leído por lectores de pantallas.
@@ -42,6 +44,8 @@ button {
   - [Home](https://fontawesome.com/icons/home?style=solid)
   - [Mensajes](https://fontawesome.com/icons/envelope?style=solid)
   - [Mi cuenta](https://fontawesome.com/icons/user?style=solid)
+
+---
 
 ### Imágenes accesibles
 
@@ -58,9 +62,11 @@ Para las imágenes de la grilla, buscar 3 imágenes y ponerle un texto alternati
 
 ![](https://i2.wp.com/www.hogarcocinafacil.com/wp-content/uploads/2016/08/como-hacer-pancakes-esponjosos.jpg?fit=500%2C334&ssl=1&w=640)
 
-👎 Imagen de panqueques
-👍 Panqueques
-👏 Torre de panqueques esponjosos adornados con arándanos y frambuesas
+👎 Imagen de panqueques<br>
+👍 Panqueques<br>
+👏 Torre de panqueques esponjosos adornados con arándanos y frambuesas<br>
+
+---
 
 ### Links accesibles
 
@@ -77,6 +83,8 @@ Crear una página con:
 
 Agregar a cada link un atributo `aria-label` adecuado para que de más información a los lectores de pantalla sobre a dónde lleva ese link. Por ejemplo `aria-label="Leer más sobre categoría X"`.
 
+---
+
 ### Footer accesible
 
 Replicar el siguiente footer (con estilos aproximados).
@@ -90,6 +98,8 @@ Replicar el siguiente footer (con estilos aproximados).
 - Poner al `input` los atributos `name` y `aria-label`
 
 https://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-navigation-basic
+
+---
 
 ### Regiones vivas
 
