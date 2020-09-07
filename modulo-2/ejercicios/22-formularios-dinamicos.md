@@ -8,6 +8,8 @@ Para estos ejercicios, todos los `inputs`, `textarea` y `select` deben tener su 
 - Sacar los estilos por defecto de elementos de formulario y darles padding, un tamaño adecuado y un borde levemente redondeado.
 - Centrar todo con respecto a la pantalla.
 
+---
+
 ### Kilómetros a Millas
 
 Crear una página que:
@@ -15,13 +17,17 @@ Crear una página que:
 - Tenga dos `inputs`, uno para el valor de kilómetros y otro para el de millas.
 - Cuando se modifica alguno de los dos inputs, el otro cambie automáticamente, realizando la conversión adecuada. Tener en cuenta que ki´lómetro es 0.62 millas, y una milla es 1.61 kilómetros.
 
+---
+
 ### RGB
 
 Crear una página que:
 
-- Tenga tres `input`s num´ericos, con valor mínimo 0 y valor máximo 255, uno para el valor R (red), otro para el valor G (green) y otro para el valor B (blue).
+- Tenga tres `input`s numéricos, con valor mínimo 0 y valor máximo 255, uno para el valor R (red), otro para el valor G (green) y otro para el valor B (blue).
 - Todos los `input`s comiencen con el valor 255.
 - Cuando se modifica algún `input`, se cambie el color de fondo del `body` con el color que se forma a partir de dichos valores.
+
+---
 
 ### Todo
 
@@ -30,6 +36,8 @@ Crear una página que:
 - Tenga un `input`, un botón que diga `Crear todo` y una lista.
 - Al presionar el botón, _si el `input` no está vacío_, se agregue un ítem a la lista con el contenido del `input` y se borre el contenido del `input`.
 
+---
+
 ### Agregar imágenes
 
 Crear una página que:
@@ -37,6 +45,8 @@ Crear una página que:
 - Tenga un `input` para la url de la imagen, un botón que diga `Agregar imagen` y un contenedor flexible donde mostrar imágenes como en una grilla.
 - Al presionar el botón, _si el `input` no está vacío_, se agregue una imagen al contenedor cuyo `src` es el contenido del `input` y se borre el contenido del `input`.
 - Al hacer click en una imagen, esta se elimine.
+
+---
 
 ### Comentario
 
@@ -50,6 +60,8 @@ Crear una página que:
   - normal si está vacío
   - verde si tiene texto y 240 caracteres o menos
   - rojo si tiene más de 240 caracters
+
+---
 
 ### Conversor avanzado
 
@@ -85,15 +97,19 @@ Para realizar este ejercicio, el `value` de cada option del `select` deben ser l
 
 La conversión se realiza con la fórmula: `VALOR_INGRESADO * VALOR_UNIDAD / VALOR_UNIDAD_A_CONVERTIR`.
 
+---
+
 ### Card dinámica
 
 Crear una página que:
 
 - Tenga un `input` para la url de la imagen, un `input` para el título, un `textarea` para la descripción, un `input` para la url externo y un `checkbok` que diga `Link externo`
-- Tenga una card simple y estilizada con: imagen, título, descripci´ón, y un link que diga `Ver más`.
+- Tenga una card simple y estilizada con: imagen, título, descripción, y un link que diga `Ver más`.
 - A medida que se modifiquen los campos, se modifique respectivamente los distintos elementos de la card.
 - Si el `checkbox` no está seleccionado, el link `Ver más` no se muestre y el `input` de la url externa se deshabilite.
 - Si el `checkbox` está seleccionado, el link `Ver más` se muestre y el `input` de la url externa se habilite.
+
+---
 
 ### Selector de imágenes
 
@@ -105,6 +121,8 @@ Crear una página que:
 - Al seleccionar `Todas` se muestren todas las imágenes.
 
 **TIP:** Agregar a cada imagen un atributo `data-categoria` cuyo valor se corresponda con el atributo `value` del `option` de la categoría correspondiente.
+
+---
 
 ### Buscador
 
@@ -120,6 +138,8 @@ Crear una página que:
 
 Por ejemplo, si una imagen tiene un `alt` que dice `Oso koala comiendo eucaliptus` y se busca `ko` dicha imagen debe mostrarse.
 
+---
+
 ### Filtro de imágenes
 
 Crear una página que:
@@ -130,90 +150,91 @@ Crear una página que:
 
 **TIP:** Agregar a cada imagen un atributo `data-categoria` cuyo valor se corresponda con el atributo `value` del `checkbox` de la categoría correspondiente.
 
-### Feedback (Validaci´ón)
+---
+
+### Feedback (Validación)
 
 Debemos crear una encuesta de satisfacción al cliente para un portal de ventas basado en 4 preguntas que nos determinará qué tan contento está el cliente con nuestro servicio.
 Las respuestas deben ser radio buttons y cada grupo responderá a una pregunta específica.
 
-1. ¿Que tan rápido solucionamos tu problema?
+1. **¿Qué tan rápido solucionamos tu problema?**
 
    - Demoraron mucho
    - Lo recibí en el tiempo estimado
    - Super rápido
 
-2. ¿Como recibiste el producto?
+2. **¿Como recibiste el producto?**
 
    - Tuvo un desperfecto
    - Era tal cual la publicación
    - Superó mis expectativas
 
-3. ¿Como calificarías el asesoramiento de nuestros representantes?
+3. **¿Cómo calificarías el asesoramiento de nuestros representantes?**
 
    - No supo responder adecuadamente mis preguntas
    - El representante respondió adecuadamente
    - Recibí un excelente asesoramiento
 
-4. ¿Recomendarías nuestro portal a otro usuario?
+4. **¿Recomendarías nuestro portal a otro usuario?**
    - No lo creo
    - Solo para casos puntuales
    - ¡Si, por supuesto!
 
 Una vez que obtengamos las respuestas mostraremos con una alerta el nivel de satisfacción con nuestro servicio, siendo que:
 
-Las respuestas negativas tendrán un valor de 1
-Las respuestas neutras un valor de 2
-Mientras que las respuestas positivas un valor de 3.
+- Las respuestas negativas tendrán un valor de 1
+- Las respuestas neutras un valor de 2
+- Mientras que las respuestas positivas un valor de 3.
 
 Por lo que el resultado deberá corresponder al siguiente para el puntaje total:
 
-4: Sumamente insatisfecho
+- **4:** Sumamente insatisfecho
+- **5-6:** Insatisfecho
+- **6-8:** Conforme
+- **8-10:** Satisfecho
+- **11-12:** Muy satisfecho
 
-5-6: Insatisfecho
-
-6-8: Conforme
-
-8-10: Satisfecho
-
-11-12: Muy satisfecho
+---
 
 ### Tarjeta de crédito (Validación)
 
-Realizaremos una validación sobre el formulario del ejercicio [Pago]().
+Realizaremos una validación sobre el formulario del ejercicio [Pago](https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/21-formularios.md).
 
 Aplicaremos las siguientes validaciones:
 
-Paso 1: Campo del número de la tarjeta de crédito.
+**Paso 1: Campo del número de la tarjeta de crédito.**
 
-    - El campo debe tener 16 caracteres. Al salirse del foco de este input, y en el caso de no cumplir con este requerimiento, el input debe colorearse de rojo, le mostraremos un mensaje de error que la tarjeta debe contener 16 caracteres y borraremos el contenido el input.
+- El campo debe tener 16 caracteres. Al salirse del foco de este input, y en el caso de no cumplir con este requerimiento, el input debe colorearse de rojo, le mostraremos un mensaje de error que la tarjeta debe contener 16 caracteres y borraremos el contenido el input.
+- Adicionaremos un input de tipo selector con 2 opciones. Visa y Mastercard. Esto no debe estar disponible para la edición del usuario, pero aplicaremos un cambio dada la siguiente condición: Si el número ingresado por el usuario inicia con 5. Será Mastercard, si comienza con 3 o 4 será visa. Y si inicia con otro valor mostraremos un mensaje de error indicando el número ingresado es erróneo.
 
-    - Adicionaremos un input de tipo selector con 2 opciones. Visa y Mastercard. Esto no debe estar disponible para la edición del usuario, pero aplicaremos un cambio dada la siguiente condición: Si el número ingresado por el usuario inicia con 5. Será Mastercard, si comienza con 3 o 4 será visa. Y si inicia con otro valor mostraremos un mensaje de error indicando el número ingresado es erróneo.
+**Paso 2: Campo nombre.**
 
-Paso 2: Campo nombre.
+- Validar que el campo de nombre posea solo texto. Lo validaremos con una regex.
 
-    - Validar que el campo de nombre posea solo texto. Lo validaremos con una regex.
+**Paso 3: CCV.**
 
-Paso 3: CCV.
+- Validar que solo posea solo números
+- Que su contenido sea 3 caracteres en el caso de visa y 4 en el caso de mastercard. Por lo que habilitaremos esta opción una vez haya completado correctamente el campo numérico.
+<br>
 
-    - Validar que solo posea solo números
-
-    - Que su contenido sea 3 caracteres en el caso de visa y 4 en el caso de mastercard. Por lo que habilitaremos esta opción una vez haya completado correctamente el campo numérico.
-
-En el Paso 1: Usaremos Blur y Change
+En el Paso 1: Usaremos `blur` y `change`
 
 Mientras que las validaciones del Paso 2 y Paso 3 las haremos antes de intentar enviar el formulario.
 
+---
+
 ### Registro (Validación)
 
-Antes de enviar el [formulario de registro de cliente](Registro de cliente) creado con anterioridad, realizaremos algunas validaciones sobre este. Pero primero, agregaremos una etiqueta small debajo de cada input con un color rojo y de inicio no va a visualizarse.
+Antes de enviar el [formulario de registro de cliente](https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/21-formularios.md) creado con anterioridad, realizaremos algunas validaciones sobre este. Pero primero, agregaremos una etiqueta small debajo de cada input con un color rojo y de inicio no va a visualizarse.
 
 Los errores y las validaciones a mostrar deben ser las siguientes:
 
-- Nombre: "El campo nombre solo puede contener texto"
-- Apellido: "El campo apellido solo puede contener texto"
-- DNI: "El DNI no puede ser mayor a 8 caracteres"
-- Email: "El formato del email no es válido"
-- Contraseña: En este caso utilizaremos 2. "La contraseña debe tener al menos 8, al menos un dígito, al menos una minúscula, al menos una mayúscula y al menos un caracter especial" y "Las contraseñas no coinciden"
-- Términos y condiciones de uso: "Debe aceptar los términos y condiciones"
+- **Nombre:** "El campo nombre solo puede contener texto"
+- **Apellido:** "El campo apellido solo puede contener texto"
+- **DNI:** "El DNI no puede ser mayor a 8 caracteres"
+- **Email:** "El formato del email no es válido"
+- **Contraseña:** En este caso utilizaremos 2. "La contraseña debe tener al menos 8, al menos un dígito, al menos una minúscula, al menos una mayúscula y al menos un caracter especial" y "Las contraseñas no coinciden"
+- **Términos y condiciones de uso:** "Debe aceptar los términos y condiciones"
 
 En el caso de que alguno de los inputs no cumpla con las características solicitadas, debemos visualizar el error correspondiente a ese input.
 
