@@ -91,6 +91,16 @@ Replicar el siguiente footer (con estilos aproximados).
 
 https://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-navigation-basic
 
-### Regiones vivas
+### Regiones vivas - Comentario
 
 Modificar el ejercicio de `Comentario` de [Formularios dinámicos](https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/22-formularios-dinamicos.md) de modo tal que tenga una _región viva_ que anuncie la cantidad de caracteres restantes al lector de pantalla cuando termina de escribirse dentro del `textarea`.
+
+### Regiones vivas - Zoom
+
+Crear una página con:
+
+- un botón para aumentar, con [este ícono](https://fontawesome.com/icons/search-plus?style=solid)
+- un botón para disminuir, con [este ícono](https://fontawesome.com/icons/search-minus?style=solid)
+- un texto que diga `Zoom 100%'`
+
+Ocultar para lectores de pantalla los íconos con `aria-hidden` y agregar `aria-label` a cada botón. Al apretar los botones, se debe actualizar el texto, aumentado y disminuyendo respecto el nivel de zoom en 10%. Agregar una _región viva_ de modo que el lector de pantalla anuncie cada vez que hay un cambio en el nivel de zoom.
