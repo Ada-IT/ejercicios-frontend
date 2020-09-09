@@ -77,6 +77,19 @@ Crear una página con:
 
 Agregar a cada link un atributo `aria-label` adecuado para que de más información a los lectores de pantalla sobre a dónde lleva ese link. Por ejemplo `aria-label="Leer más sobre categoría X"`.
 
+### Collapse
+
+Un `collapse` es un componente que consiste en un control (por lo general un botón) que muestra/oculta un cierto contenido (por lo general texto), y puede o no contener un título, como [este ejemplo](https://codepen.io/pablohHoc/full/ExKExXq).
+
+Hacer un `collapse` como el ejemplo y volverlo accesible, de la siguiente manera:
+
+- el título tiene que tener un `id`
+- el contenido tiene que tener un `id`
+- el botón tiene que tener un atributo `aria-controls` cuyo valor es el `id` del contenido, para indicar que controla dicho contenido
+- el boton tiene que tener un atributo `aria-expanded` y ser `true` cuando el contenido está mostrándose (expandido) y `false` cuando no
+- el contenido tiene que tener un atributo `aria-labelledby` cuyo valor es el `id` del título, para relacionar el contenido con su título
+- el contenido tiene que tener un atributo `aria-hidden` y ser `true` cuando está oculto y `false` cuando no
+
 ### Footer accesible
 
 Replicar el siguiente footer (con estilos aproximados).
