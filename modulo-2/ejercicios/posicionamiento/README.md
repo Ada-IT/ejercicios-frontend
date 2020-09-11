@@ -89,7 +89,7 @@ Maquetar un formulario de registro de usuario que pida nombre de usuario, email,
 
 Al formulario anterior, agregar el atributo `required` a cada atributo. Hacer que aparezca sobre cada `input` [este ícono](https://fontawesome.com/icons/check?style=solid) a la derecha cuando dicho `input` está en el estado `valid`.
 
-### 10 - Imagen con overlay
+### 08 - Imagen con overlay
 
 Poner una imagen con un overlay (es decir, un fondo semitransparente, usando `rgba`) y texto encima. Por ejemplo:
 
