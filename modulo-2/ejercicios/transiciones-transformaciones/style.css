@@ -1,0 +1,236 @@
+/* 
+  **********************************
+  Estilos base - NO MODIFICAR 
+  **********************************
+*/
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f5f5f5;
+}
+
+section {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px 35px 40px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+h1 {
+  text-align: center;
+  margin: 60px 0 40px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+a,
+span:not(.consigna),
+label,
+input {
+  display: block;
+}
+
+label {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+input {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: 10px 0 20px;
+}
+
+.columna {
+  max-width: 700px;
+  margin: 0 15px;
+}
+
+.consigna {
+  font-weight: bold;
+}
+
+.ejercicio {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.ejercicio-circulos,
+.ejercicio-no-circulos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ejercicio-no-circulos .circulo,
+.ejercicio-circulos .circulo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+
+.ejercicio-no-circulos div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #e0e0e0;
+}
+
+.ejercicio-submenu ul {
+  list-style: none;
+}
+
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background: lightcoral;
+  margin: 30px 20px 10px;
+}
+
+.contenedor-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.ejercicio-6 .boton {
+  border: 0;
+  border-radius: 5px;
+  padding: 0 20px;
+  height: 40px;
+  background-color: #ede7f6;
+  font-family: sans-serif;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.ejercicio-7 .boton {
+  border: 1px solid #ec407a;
+  border-radius: 5px;
+  padding: 0 20px;
+  height: 40px;
+  background-color: white;
+  font-family: sans-serif;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #ec407a;
+}
+
+.ejercicio-8 .boton {
+  height: 40px;
+  border: 1px solid #ec407a;
+  border-radius: 5px;
+  padding: 0 20px;
+  background-color: white;
+  font-family: sans-serif;
+  margin: 20px 20px 0;
+  cursor: pointer;
+  color: #ec407a;
+  position: relative;
+}
+
+.ejercicio-8 .boton-1 {
+  overflow: hidden;
+}
+
+.ejercicio-8 .boton-1 .texto-boton {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  transition: 0.2s;
+}
+
+.ejercicio-8 .boton-1 .icono-boton {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  transition: 0.2s;
+}
+
+.ejercicio-8 .boton:hover .texto-boton {
+  left: calc(-100% - 40px);
+}
+
+.ejercicio-8 .boton:hover .icono-boton {
+  right: 0;
+}
+/* 
+  **********************************
+  Ejercicios - Resolver los ejercicios a continuación 
+  **********************************
+*/
+
+/* 
+  TIP: Recuerden que para que la transici´on ocurra, el elemento tiene que tener la propiedad que transiciona definida
+*/
+
+/* 
+  Ejercicio 1
+  ----------------------------------
+  - Al hacer hover sobre los cuadrados, escalar los impares un factor de 1.2 y los impares un factor de 0.8 tanto vertical como horizontalmente, con una duración de 0.3 segundos.
+*/
+
+/* 
+  Ejercicio 2
+  ----------------------------------
+  - Al hacer hover sobre el contenedor, rotar cada cuadrado a la derecha sobre el eje Z, con una duración de 0.3 segundos. El primero debe rotar 90 grados, el 2do 180 grados, el 3ro 270 grados y el 4t0 360 grados.
+*/
+
+/* 
+  Ejercicio 3
+  ----------------------------------
+  - Al hacer hover sobre el contenedor, rotar cada cuadrado 90 grados a la derecha sobre el eje Z, con una duración de 0.3s, teniendo cada uno un delay de 0.2 segundos con respecto al de la izquierda (es decir, 0, 0.2, 0.4 y 0.6). 
+*/
+
+/* 
+  Ejercicio 4
+  ----------------------------------
+  - Al hacer hover sobre el contenedor, rotar cada cuadrado 180 grados a la derecha sobre el eje Y, con una duración de 0.3s, teniendo cada uno un delay de 0.2 segundos con respecto al de la izquierda (es decir, 0, 0.2, 0.4 y 0.6) 
+*/
+
+/* 
+  Ejercicio 5
+  ----------------------------------
+  - Al hacer hover sobre el contenedor, convertir a cada cuadrado en un círculo con border-radius, teniendo el 1ro una duración de 0.3 segundos, el 2do de 0.6 segundos, el 3ro de 0.9 segundos y el 4to de 1.2 segundos.  
+*/
+
+/* 
+  Ejercicio 6
+  ----------------------------------
+  - Al hacer hover sobre el botón, cambiar el color de fondo por #d1c4e9 y al presionarlo, por #b39ddb. Darle una transición con 0.3 segundos de duración.  
+*/
+
+/* 
+  Ejercicio 7
+  ----------------------------------
+  - Al hacer hover sobre el botón, cambiar el color de fondo por #ec407a y el color de texto por #000000, y al presionarlo, cambiar el color de fondo por #e91e63. Darle una transición con 0.3 segundos de duración.  
+*/
+
+/* 
+  Ejercicio 8
+  ----------------------------------
+  - Replicar el efecto de hover del botón Editar, haciendo que el ícono aparezca desde arriba para el botón de Comprar y desde la izquierda para el botón de Volver.  
+*/

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de transiciones y transformaciones</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      ' '
+
+    </script>
+  </head>
+  <body>
+    <div class="columna">
+      <h1>Transciciones y transformaciones</h1>
+      <!-- 
+        ***************************************
+                    EJERCICIO 1
+        ***************************************
+       -->
+      <section>
+        <h2>Ejercicio 1</h2>
+        <p>
+          <span class="consigna">CONSIGNA:</span> Al hacer hover sobre los
+          cuadrados, escalar los impares un factor de 1.2 y los impares un
+          factor de 0.8 tanto vertical como horizontalmente, con una duración de
+          0.3 segundos.
+        </p>
+        <div class="ejercicio ejercicio-1 contenedor-flex">
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+        </div>
+      </section>
+      <!-- 
+        ***************************************
+                    EJERCICIO 2
+        ***************************************
+       -->
+      <section>
+        <h2>Ejercicio 2</h2>
+        <p>
+          <span class="consigna">CONSIGNA:</span> Al hacer hover sobre el
+          contenedor, rotar cada cuadrado a la derecha sobre el eje Z, con una
+          duración de 0.3 segundos. El primero debe rotar 90 grados, el 2do 180
+          grados, el 3ro 270 grados y el 4t0 360 grados.
+        </p>
+        <div class="ejercicio ejercicio-2 contenedor-flex">
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+        </div>
+      </section>
+      <!-- 
+        ***************************************
+                    EJERCICIO 3
+        ***************************************
+       -->
+      <section>
+        <h2>Ejercicio 3</h2>
+        <p>
+          <span class="consigna">CONSIGNA:</span> Al hacer hover sobre el
+          contenedor, rotar cada cuadrado 90 grados a la derecha sobre el eje Z,
+          con una duración de 0.3s, teniendo cada uno un delay de 0.2 segundos
+          con respecto al de la izquierda (es decir, 0, 0.2, 0.4 y 0.6).
+        </p>
+        <div class="ejercicio ejercicio-3 contenedor-flex">
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+        </div>
+      </section>
+      <!-- 
+        ***************************************
+                    EJERCICIO 4
+        ***************************************
+       -->
+      <section>
+        <h2>Ejercicio 4</h2>
+        <p>
+          <span class="consigna">CONSIGNA:</span> Al hacer hover sobre el
+          contenedor, rotar cada cuadrado 180 grados a la derecha sobre el eje
+          Y, con una duración de 0.3s, teniendo cada uno un delay de 0.2
+          segundos con respecto al de la izquierda (es decir, 0, 0.2, 0.4 y
+          0.6).
+        </p>
+        <div class="ejercicio ejercicio-4 contenedor-flex">
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+        </div>
+      </section>
+      <!-- 
+        ***************************************
+                    EJERCICIO 5
+        ***************************************
+       -->
+      <section>
+        <h2>Ejercicio 5</h2>
+        <p>
+          <span class="consigna">CONSIGNA:</span> Al hacer hover sobre el
+          contenedor, convertir a cada cuadrado en un círculo con border-radius,
+          teniendo el 1ro una duración de 0.3 segundos, el 2do de 0.6 segundos,
+          el 3ro de 0.9 segundos y el 4to de 1.2 segundos.
+        </p>
+        <div class="ejercicio ejercicio-5 contenedor-flex">
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+          <div class="cuadrado"></div>
+        </div>
+      </section>
+      <!-- 
+        ***************************************
+                    EJERCICIO 6
+        ***************************************
+       -->
+      <section>
+        <h2>Ejercicio 6</h2>
+        <p>
+          <span class="consigna">CONSIGNA:</span> Al hacer hover sobre el botón,
+          cambiar el color de fondo por #d1c4e9 y al presionarlo, por #b39ddb.
+          Darle una transición con 0.3 segundos de duración.
+        </p>
+        <div class="ejercicio ejercicio-6 contenedor-flex">
+          <button type="button" class="boton">Click me</button>
+        </div>
+      </section>
+      <!-- 
+        ***************************************
+                    EJERCICIO 7
+        ***************************************
+       -->
+      <section>
+        <h2>Ejercicio 7</h2>
+        <p>
+          <span class="consigna">CONSIGNA:</span> Al hacer hover sobre el botón,
+          cambiar el color de fondo por #ec407a y el color de texto por #000000,
+          y al presionarlo, cambiar el color de fondo por #e91e63. Darle una
+          transición con 0.3 segundos de duración.
+        </p>
+        <div class="ejercicio ejercicio-7 contenedor-flex">
+          <button type="button" class="boton">Click me</button>
+        </div>
+      </section>
+
+      <!-- 
+      ***************************************
+                  EJERCICIO 8
+      ***************************************
+      -->
+      <section>
+        <h2>Ejercicio 8</h2>
+        <p>
+          <span class="consigna">CONSIGNA:</span> Replicar el efecto de hover
+          del botón Editar, haciendo que el ícono aparezca desde arriba para el
+          botón de Comprar y desde la izquierda para el botón de Volver.<br /><br />
+          <span class="consigna">TIP:</span> Usar posicionamiento y overflow:
+          hidden.
+        </p>
+        <div class="ejercicio ejercicio-8 contenedor-flex">
+          <button type="button" class="boton boton-1">
+            <i class="fas fa-edit icono-boton" aria-hidden="true"></i>
+            <span class="texto-boton">EDITAR</span>
+          </button>
+          <button type="button" class="boton boton-2">
+            <i class="fas fa-shopping-cart icono-boton" aria-hidden="true"></i>
+            <span class="texto-boton">COMPRAR</span>
+          </button>
+          <button type="button" class="boton boton-3">
+            <i class="fas fa-arrow-left icono-boton" aria-hidden="true"></i>
+            <span class="texto-boton">VOLVER</span>
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
