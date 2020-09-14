@@ -46,7 +46,7 @@ Maquetar una card de producto que contenga imagen, nombre y precio de producto. 
 
 ![](https://i.ibb.co/g971CFM/Screen-Shot-2020-09-11-at-13-47-34.png)
 
-### 04 - Menú de navegación
+### 07 - Menú de navegación
 
 Sobre la siguiente estructura HTML aplicar los estilos necesarios para lograr que:
 
@@ -67,7 +67,7 @@ Sobre la siguiente estructura HTML aplicar los estilos necesarios para lograr qu
 </header>
 ```
 
-### 05 - Submenú
+### 08 - Submenú
 
 Al ítem Submenú del ejercicio anterior:
 
@@ -79,17 +79,17 @@ Ejemplo:
 
 ![alt text](https://i.ibb.co/X8Kj2cr/Captura-de-pantalla-de-2020-09-11-09-42-06.png 'ejemplo de submenu')
 
-### 06 - Registrar usuario
+### 09 - Registrar usuario
 
 Maquetar un formulario de registro de usuario que pida nombre de usuario, email, contraseña y repetir contraseña. Cada input deberá tener un ícono delante del placeholder. Ejemplo:
 
 ![alt text](https://i.ibb.co/MM4pWnR/Captura-de-pantalla-de-2020-09-11-09-49-06.png 'ejemplo de formulario')
 
-### 07 - Validar formulario
+### 10 - Validar formulario
 
 Al formulario anterior, agregar el atributo `required` a cada atributo. Hacer que aparezca sobre cada `input` [este ícono](https://fontawesome.com/icons/check?style=solid) a la derecha cuando dicho `input` está en el estado `valid`.
 
-### 08 - Imagen con overlay
+### 11 - Imagen con overlay
 
 Poner una imagen con un overlay (es decir, un fondo semitransparente, usando `rgba`) y texto encima. Por ejemplo:
 
