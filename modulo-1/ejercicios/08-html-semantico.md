@@ -1,13 +1,6 @@
 # HTML Semántico
 
-## Ejercicio 1 - Layout
-
-Usando HTML semántico y Flexbox, replicar los siguientes layouts, cada uno en un archivo `.html` aparte (deben ocupar toda la página y las regiones deben distinguirse con colores diferentes, como se muestra en las imágenes): 
-
-![](https://i.ibb.co/Ph1ppmr/Screen-Shot-2020-06-22-at-12-37-56.png)
-<br>
-
-## Ejercicio 2 - Eventos próximos
+## Ejercicio 1 - Eventos próximos
 
 Crear la estructura HTML de un artículo (sin estilos) usando etiquetas semánticas:
 
@@ -30,7 +23,7 @@ Crear la estructura HTML de un artículo (sin estilos) usando etiquetas semánti
 - Se puede usar `lorem ipsum` para todos los texto que se necesiten.
 <br>
 
-## Ejercicio 3 - Artículo con comentarios
+## Ejercicio 2 - Artículo con comentarios
 
 ```
 🔍 Investigar la etiqueta time
@@ -59,7 +52,7 @@ Crear la estructura HTML de un artículo (sin estilos) usando etiquetas semánti
 - Se puede usar `lorem ipsum` para todos los texto que se necesiten.
 <br>
 
-## Ejercicio 4 - Landing
+## Ejercicio 3 - Landing
 
 ```
 🔍 Investigar la etiqueta address
