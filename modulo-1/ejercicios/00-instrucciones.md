@@ -27,9 +27,10 @@ ada
                   └── index.html
 ```
 
-## Ejercicios
+<br/>
 
-Para los ejercicios:
+**Para los ejercicios**
+
 - Pueden usar `lorem ipsum` para rellenar párrafos de texto.
 - Pueden copiar y pegar texto de otras páginas.
 - **¡No copien ni peguen etiquetas código!** Por más tedioso que sea, la repetición mecánica ayuda muchísimo a memorizar la sintaxis. Si tienen que escribir 10 párrafos, escriban las 10 etiquetas `p` correspondientes.
@@ -39,4 +40,4 @@ Para los ejercicios:
 - Cuando no se especifiquen valores de propiedad estilos y no hay ejemplo para inspeccionar, pueden jugar con distintos valores o poner alguno arbitrario.
 - Si las imágenes no están dadas en el ejercicio, busquen imágenes similares o de reemplazo en internet. Si el ejercicio tiene muchas imágenes, pueden repetir algunas imágenes.
 - **No se preocupen por dejar los ejercicios visualmente agradables**. Lo importante de los ejercicios es poner en práctica los conceptos vistos en clases, cómo se ve no es tan prioritario como que sea funcional (en estas instancias). En los proyectos sí le vamos a dar más énfasis al acabado visual.
-- Por más que el ejercicio no lo indique explícitamente, a medida que las vayan aprendiendo e incorporando, **usen siempre buenas prácticas*.
+- Por más que el ejercicio no lo indique explícitamente, a medida que las vayan aprendiendo e incorporando, **usen siempre buenas prácticas**.
