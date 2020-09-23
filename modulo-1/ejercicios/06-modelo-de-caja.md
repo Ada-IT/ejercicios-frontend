@@ -2,7 +2,7 @@
 
 ## Ejercicios
 
-Replicar los siguientes ejemplos:
+Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idénticos, pueden simplicar la elección de colores, fuentes y efectos. La idea es aplicar los conocimientos vistos _hasta el momento_, en caso de que no sepan hacer alguna parte, pueden dejarla y seguir con otro ejercicio.**
 
 ### [01 - Notificación](https://uidesigndaily.com/posts/sketch-notification-widget-day-855)
 
@@ -10,15 +10,23 @@ Replicar los siguientes ejemplos:
 
 ### [03 - Banderas](https://www.countryflags.com/en/)
 
-- Creá 6 banderas, una debajo de la otra. 
-- Las banderas deben 300px de ancho y 200px de alto.
-- Las banderas deben estar separadas entre sí por un margen.
-- Las banderas deben estar centradas horizontalmente respecto a la pantalla.
-- Elegí banderas con franjas horizontales o verticales (por ejemplo Argentina, México, Francia, Alemania).
+- Creá 6 banderas, una debajo de la otra, usando `divs` 
+- Las banderas deben 300px de ancho y 200px de alto
+- Las banderas deben estar separadas entre sí por un margen
+- Las banderas deben estar centradas horizontalmente respecto a la pantalla
+- Elegí banderas con franjas horizontales o verticales (por ejemplo Argentina, México, Francia, Alemania). Para las franjas usá `divs` también, por ejemplo:
+
+```html
+<div class="bandera-argentina">
+  <div class="franja-celeste"></div>
+  <div class="franja-blanca"></div>
+  <div class="franja-celeste"></div>
+</div>
+```
 
 ### [03 - Barras de Progreso](https://ck9cu.csb.app/)
 
-- Creá 5 barras de progreso usando un div dentro de otro
+- Creá 5 barras de progreso usando un `div` dentro de otro
 - Las barras deben tener 500px de ancho y 30px de alto
 - La barra de fondo debe tener un color y la que indica el progreso otro
 - Poner los siguientes progresos en cada barra: 10%, 25%, 50%, 75%, 90%
