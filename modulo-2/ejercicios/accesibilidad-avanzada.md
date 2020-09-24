@@ -15,20 +15,6 @@ Hacer un `collapse` como el ejemplo y volverlo accesible, de la siguiente manera
 - el contenido tiene que tener un atributo `aria-labelledby` cuyo valor es el `id` del título, para relacionar el contenido con su título
 - el contenido tiene que tener un atributo `aria-hidden` y ser `true` cuando está oculto y `false` cuando no
 
-### Footer accesible
-
-Replicar el siguiente footer (con estilos aproximados).
-
-![](https://i.ibb.co/GWy0dWg/Screen-Shot-2020-09-07-at-17-26-15.png)
-
-- Poner los links de navegación dentro de etiqueta `nav`
-- Usar listas para los íconos y los links
-- Poner a los íconos de contacto el atributo `aria-hidden`
-- Poner a los íconos de redes sociales el atributo `aria-hidden` y a los links que la contienen el atributo `aria-label` correspondiente
-- Poner al `input` los atributos `name` y `aria-label`
-
-https://a11y-style-guide.com/style-guide/section-navigation.html#kssref-navigation-navigation-basic
-
 ### Regiones vivas - Comentario
 
 Modificar el ejercicio de `Comentario` de [Formularios dinámicos](https://github.com/Ada-IT/ejercicios-frontend/blob/master/modulo-2/ejercicios/22-formularios-dinamicos.md) de modo tal que tenga una _región viva_ que anuncie la cantidad de caracteres restantes al lector de pantalla cuando termina de escribirse dentro del `textarea`.
