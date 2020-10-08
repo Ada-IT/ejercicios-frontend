@@ -22,7 +22,7 @@ h1{
 }
 
 p{
-	background: $color
+	background-color: $color
 }
 
 span{
@@ -110,89 +110,140 @@ Ahora asignamos la variable shadow al button y shadow-xl a la card.Luego cambiam
 
 ### Ejercicio 4 - Multiplicación
 
-1. Crear un párrafo con texto aleatorio
-2. Asignar una clase.
-3. Darle un tamaño de letra de 10 px
-4. Multiplicar este por 3
+1. Crear un 4 texto aleatorios con las clases `text`,`text-lg`,`text-xl` y `text-xxl`
+2. En Sass crear una variable `$fontSize:20px`
+3. A cada clase asignarle la variable anteriormente creada, incrementar el tamaño de esta en 0.25 unidades empezando en 1.Cuidado multiplicamos sin unidad, por ejemplo,
+```
+.text-xl{
+   font-size:$fontSize * 1.5;
+}
+```
+4. Veremos que los texto tienen los siguietes font-size
+```
+   text: 20px
+   text-lg: 25px
+   text-xl: 30px
+   text-xl: 35px
+```
 
 ### Ejercicio 5 - Multiplicación con error
 
-1. Crear un párrafo con texto aleatorio
-2. Asignar una clase.
-3. Darle un tamaño de letra de 10 px
-4. Multiplicar este por 3 px
+1. Repetir el ejercicio anterior
+2. En vez de incremetar por 0.25 lo hacemos por 0.25px.Por ejemplo:
+```
+.text-xl{
+   font-size:$fontSize * 1.5px;
+}
+```
 5. Analizar el error e investigar porque no se puede hacer eso.
 
 ### Ejercicio 6 - División
 
-1. Crear un párrafo con texto aleatorio
-2. Asignar una clase.
-3. Darle un tamaño de letra de 18 px
-4. Dividir este por 3 px
-5. Revisar el resultado, debería verse un tamaño de letra de 6 px. En caso que no se vea recordar de agregar los paréntesis en el cálculo.
+1. Copiar el siguiente codigo html
+```
+	<div class="box">
+			<div class="first"></div>
+			<div class="second"></div>
+	</div>
+```
+2. Dar los siguientes estilos
+```
+.box{
+  display: flex;
+}
+
+.first{
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
+}
+
+.second{
+  background-color: red;
+  height: 150px;
+  width: 150px;
+}
+
+```
+3. Cambiar ambos width por 100%
+4. La clase `first` debe ocupar un 20% del total del 100% del ancho,es decir, hay que dividir 100% por 5. No olvides de colocar los parentesis
+5. La clase `second` debe ocupar un 80% del total del 100% del ancho,es decir, hay que dividir 100% por 1.25. No olvides de colocar los parentesis
+
 
 ### Ejercicio 7 - Integrador
 
 Se quiere crear un contenedor principal que ocupe el 100% del ancho y 120 px de alto.Además que dentro posea 3 cajas de diferente color y cada una ocupe un 30% del ancho total y 150 px de alto.Aclaración no debe haber salto de línea, es decir, que las tres caja se encontraran una a lado de la otra.
 
-## Operadores de comparación y lógicos
-
-### Ejercicio 1 - Usando condicionales
-
-1. Crear una caja con un alto y un ancho de 150 px
-2. Crear una variable llamada `$with-margin: false`
-3. En las propiedades de la caja agregamos al siguiente sintaxis:
-
+## Anidado
+### Ejercio 1
+1. Crean un archivo html y pegar el siguiente segmento de código en el body
 ```
-.box{
-	width:150px;
-	height:150px;
-	@if(false){
-		margin:150px;
-	}
-	@else{
-		margin:0;
-	}
+   <div class="btn-group">
+      <button type="button" class="btn">Left</button>
+      <button type="button" class="btn">Middle</button>
+      <button type="button" class="btn"><span>Right<span></button>
+   </div>
+   <button type="button" class="btn">Right</button>
+```
+2. Usando combinadores de espacio vamos hacer que los botones dentro de la clase `btn-group` tengan un color de fondo rojo
+```
+.btn-group{
+   .btn{
+      background-color: red;
+   }
+}
+```
+3. Ahora usando combinadores de hijo directo vamos hacer que el span dentro de un boton tengan un color de fondo azul
+```
+.btn{
+   > span{
+      background-color: blue;
+   }
+}
+```
+4. Ahora usando combinadores de hermanos adyacentes vamos hacer que la etiqueta `button` la letra sea de 36px cuando este seguida de un `div`
+```
+div{
+   + button{
+      font-size:36px
+   }
+}
+```
+5. Si revisamo el css generado nos quedara algo como lo siguiente:
+```
+.btn-group .btn {
+  background-color: red;
+}
+
+.btn > span {
+  background-color: blue;
+}
+
+div + button {
+  font-size: 36px;
 }
 ```
 
-4. Validamos los cambios en el navegador.
-5. Cambiamos la variable por un valor `true`
-6. Volvemos a validar los cambios.
 
-### Ejercicio 2 - Operadores de comparación
-
-1. En el archivo de sass crear las variables `$height:120px` y `$width:150px`
-2. En el html creamos una caja
-3. A la caja le asignamos las variables que creamos para el alto y para el ancho
-4. Usamos un condicional y preguntamos si el alto es más grande que el ancho, y lo resolvemos de la siguiente forma:
-   a. Si es verdadero el color de fondo sea un azul
-   b. Si es falso que sea de color rojo
-5. Cambiar el valor de las variables para que se vea de color azul la caja.
-
-### Ejercicio 3 - Operadores de comparación y lógicos
-
-1. Repetimos el ejercicio 2
-2. Ahora el condicional tiene que ser si el alto es igual o más chico que el ancho y además el ancho no supere los 121 px se deberá resolver de la siguiente forma:
-   a. Si es verdadero el color de fondo sea un azul
-   b. Si es falso que sea de color rojo
-3. Cambiar el valor de las variables para que se vea de color azul la caja.
-
-### Ejercicio 4 - Operadores de comparación y lógicos
-
-1. Repetimos el ejercicio 2
-2. Ahora el condicional tiene que ser si el alto es diferente al ancho y además el ancho sea igual a 120 px se deberá resolver de la siguiente forma:
-   a. Si es verdadero el color de fondo sea un azul
-   b. Si es falso que sea de color rojo
-3. Cambiar el valor de las variables para que se vea de color azul la caja.
-
-## Anidado
-
+### Ejercicio 2
 ### Base
 
-Crean un archivo html y usando emmet replicar el siguiente código
-`(div>(p>span>lorem)+(p*3>lorem)+(p>span>lorem))+(p*2>span>lorem+span>lorem)+(h1>lorem10)+p*2>span>lorem+span>lorem`
-Para esto hay que vscode, hay que copiarlo y pegarlo.Luego apretar la combinación de teclas `ctrl+ barra espaciadora` o `⌃ + barra espaciadora` en mac.Esto despliega la sugerencia apretar enter y se le creara un código HTML necesario para los ejercicios.
+Crean un archivo html y pegar el siguiente segmento de código en el body
+```
+   <div>
+      <p><span>Lorem ipsum dolor sit amet.</span></p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Impedit quod sit dignissimos ratione.</p>
+      <p>Esse suscipit pariatur quibusdam illum.</p>
+      <p><span>Lorem ipsum dolor sit amet.</span></p>
+   </div>
+   <p><span>Lorem ipsum dolor sit amet.<span>Lorem ipsum dolor sit amet.</span></span></p>
+   <p><span>A voluptatem nihil deleniti modi!<span>Ut distinctio iusto placeat nisi.</span></span></p>
+   <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dolor!</h1>
+   <p><span>Lorem ipsum dolor sit amet.<span>Lorem ipsum dolor sit amet.</span></span></p>
+   <p><span>Dolor sapiente dolores earum repellendus.<span>Laudantium rem quia nobis neque?</span></span></p>
+
+```
 
 ### Parte 1
 
@@ -219,12 +270,84 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
 
 - A los `p` que son hermanos generales del `div` cambiar el fondo de color por `silver`
 
-### Selector padre
+## Selector padre
+### Ejercicio 1
+1. Crean un archivo html y pegar el siguiente segmento de código en el body
+```
+   <div class="btn-group">
+      <button type="button" class="btn">Left</button>
+      <button type="button" class="btn">Middle</button>
+      <button type="button" class="btn"><span>Right<span></button>
+   </div>
+   <button type="button" class="btn btn--primary">Right</button>
+```
+2. Usando selector padre vamos hacer que los elemento con la clase `btn` tengan el fondo de color rojo dentro del `btn-group`
+```
+.btn-group{
+   & .btn{
+      background-color: red;
+   }
+}
+```
+3. Ahora queremos que `btn` tenga un color verde y cuando le hagamos `hover` cambie el color a violeta
+```
+.btn{
+      background-color: green;
+      &:hover{
+            background-color: violet;
+      }
+}
+```
 
+4. Por ultimo queremos tener una variante de esta con el color azul de fondo.Cambiamos el codigo a:
+```
+.btn{
+      background-color: green;
+      &:hover{
+            background-color: violet;
+      }
+       &--primary{
+          background-color: blue;
+      }
+}
+```
+5. Si revisamo el css generado nos quedara algo como lo siguiente:
+```
+.btn-group .btn {
+  background-color: red;
+}
+
+.btn {
+  background-color: green;
+}
+.btn:hover {
+  background-color: violet;
+}
+.btn--primary {
+  background-color: blue;
+}
+```
+
+
+### Ejercicio 2
 ### Base
 
-Crear los archivos necesarios y utilizar la siguiente plantilla de emmet:
-`.card>(.card__header>h3{Soy un card})+(.card__body>p>lorem35)+(.card__footer>button.button.button--primary{Aceptar}+button.button.button--danger{Cancelar})`
+Crean un archivo html y pegar el siguiente segmento de código en el body
+
+```
+   <div class="card">
+      <div class="card__header">
+         <h3>Soy un card</h3>
+      </div>
+   <div class="card__body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, sapiente.</p>
+   </div>
+      <div class="card__footer">
+         <button class="button button--primary">Aceptar</button>
+         <button class="button button--danger">Cancelar</button>
+      </div>
+   </div>
+```
 
 ### Enunciado
 
@@ -233,7 +356,7 @@ Crear los archivos necesarios y utilizar la siguiente plantilla de emmet:
 - Para el `card__header` y el `card__footer` un color de fondo `f3f3f3`
 - Para el `card__body` dar el color de fondo `fafbfd`
 
-3. Usando el selector padre darle estilo a los botones
+2. Usando el selector padre darle estilo a los botones
 
 - Para el botón base dar un padding de `16px 8px`
 - Dentro de este al `button--primary` dar los siguientes estilos:
@@ -246,3 +369,16 @@ Crear los archivos necesarios y utilizar la siguiente plantilla de emmet:
   - Color de fondo `#f56565`
   - Cuando se le haga`hover` que el color de fondo cambie a `#c53030`
   - Cuando está en estado de `active` que el color de fondo cambie a `#742a2a`
+
+## Integrador
+Recorda que tenes recursos como los siguientes:
+* [Unsplah](https://unsplash.com/) para imagenes
+* [Google Font](https://fonts.google.com/) para la familia de letras
+* [Randomuser](https://randomuser.me/photos) para foto de perfil aleatorias
+
+Utilizando todo lo visto realizar los siguientes maquetados:
+* ![Success Toasts](https://uidesigndaily.com/uploads/1012/day_1012.png)
+* ![Cards](https://uidesigndaily.com/uploads/1117/day_1117.png)
+* ![Blog Cards](https://uidesigndaily.com/uploads/997/day_997.png)
+* ![App List](https://uidesigndaily.com/uploads/1057/day_1057.png)
+
