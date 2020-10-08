@@ -7,30 +7,32 @@ Una variable nos permite repetir un valor sin estar copiando en todos lados, ade
 ### Ejercicio 1
 
 **Contexto:**
-Vamos a crear un título, un párrafo y un span aleatorio.Luego asignaremos algunas propiedades con variables y veremos como funcionan.
+
+Vamos a crear un título, un párrafo y un span aleatorio. Luego asignaremos algunas propiedades con variables y veremos cómo funcionan.
+
 **Pasos:**
 
-1. Creamos el archivo `index.html` ,colocamos las etiquetas con texto aleatorio.Por ultimo importamos el archivo `style.css`, este se genera cuando compilemos el sass.
+1. Creamos el archivo `index.html`, colocamos las etiquetas con texto aleatorio. Por último importamos el archivo `style.css`, este se genera cuando compilemos el sass.
 2. Creamos un archivo `main.scss` y dentro colocamos selectores de tipo para cada parte de los textos.
 3. Creamos dos variables que van a ser `$margin:15px` y `$color: blue` en el archivo main.scss;
 4. Asignamos las siguientes propiedades a cada etiqueta:
 
-```
+```css
 h1{
-	color:$color;
-	margin:$margin;
+  color: $color;
+  margin:$ margin;
 }
 
 p{
-	background-color: $color
+  background-color: $color
 }
 
 span{
-	color:$color
+  color: $color
 }
 ```
 
-5. Compilamos el sass a un archivo `style.css` y observamos en el navegador los resultados
+5. Compilamos el ` a un archivo `style.css` y observamos en el navegador los resultados
 6. Cambiamos las variables por lo siguiente `$margin:5px` y `$color: red`
 7. Repetimos el paso 5.
 
@@ -42,10 +44,12 @@ Vamos a crear un [badge](https://getbootstrap.com/docs/4.5/components/badge/#con
 ### Parte 1 - Creación de componentes y colores
 
 **Ejercicio**
+
 Crear los componentes card, button y badge. Asigarle una variable de color y luego cambiarla.
+
 **Pasos:**
 
-1. Creamos el archivo `index.html` ,colocamos una card con un button y un badge.
+1. Creamos el archivo `index.html`, colocamos una card con un button y un badge.
 2. Creamos los archivos sass que necesitamos.
 3. Dentro de la carpeta de sass creamos la carpeta `utils` y dentro el archivo `_variables.scss`
 4. Lo importamos en el archivo `main.scss`
@@ -76,6 +80,7 @@ Crear los componentes card, button y badge. Asigarle una variable de color y lue
 ### Parte 2 - Box shadow
 
 **Ejercicio:**
+
 Agregar 2 dos variables más para los box shadow, con los siguientes valores:
 
 - shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -113,41 +118,49 @@ Ahora asignamos la variable shadow al button y shadow-xl a la card.Luego cambiam
 1. Crear un 4 texto aleatorios con las clases `text`,`text-lg`,`text-xl` y `text-xxl`
 2. En Sass crear una variable `$fontSize:20px`
 3. A cada clase asignarle la variable anteriormente creada, incrementar el tamaño de esta en 0.25 unidades empezando en 1.Cuidado multiplicamos sin unidad, por ejemplo,
-```
+
+```scss
 .text-xl{
-   font-size:$fontSize * 1.5;
+  font-size: $fontSize * 1.5;
 }
 ```
+
 4. Veremos que los texto tienen los siguietes font-size
+
 ```
-   text: 20px
-   text-lg: 25px
-   text-xl: 30px
-   text-xl: 35px
+text: 20px
+text-lg: 25px
+text-xl: 30px
+text-xl: 35px
 ```
 
 ### Ejercicio 5 - Multiplicación con error
 
 1. Repetir el ejercicio anterior
 2. En vez de incremetar por 0.25 lo hacemos por 0.25px.Por ejemplo:
-```
+
+```scss
 .text-xl{
    font-size:$fontSize * 1.5px;
 }
 ```
+
 5. Analizar el error e investigar porque no se puede hacer eso.
 
 ### Ejercicio 6 - División
 
 1. Copiar el siguiente codigo html
+
+```html
+<div class="box">
+  <div class="first"></div>
+  <div class="second"></div>
+</div>
 ```
-	<div class="box">
-			<div class="first"></div>
-			<div class="second"></div>
-	</div>
-```
+
 2. Dar los siguientes estilos
-```
+
+```css
 .box{
   display: flex;
 }
@@ -163,8 +176,8 @@ Ahora asignamos la variable shadow al button y shadow-xl a la card.Luego cambiam
   height: 150px;
   width: 150px;
 }
-
 ```
+
 3. Cambiar ambos width por 100%
 4. La clase `first` debe ocupar un 20% del total del 100% del ancho,es decir, hay que dividir 100% por 5. No olvides de colocar los parentesis
 5. La clase `second` debe ocupar un 80% del total del 100% del ancho,es decir, hay que dividir 100% por 1.25. No olvides de colocar los parentesis
@@ -177,7 +190,8 @@ Se quiere crear un contenedor principal que ocupe el 100% del ancho y 120 px de 
 ## Anidado
 ### Ejercio 1
 1. Crean un archivo html y pegar el siguiente segmento de código en el body
-```
+
+```html
    <div class="btn-group">
       <button type="button" class="btn">Left</button>
       <button type="button" class="btn">Middle</button>
@@ -185,24 +199,30 @@ Se quiere crear un contenedor principal que ocupe el 100% del ancho y 120 px de 
    </div>
    <button type="button" class="btn">Right</button>
 ```
+
 2. Usando combinadores de espacio vamos hacer que los botones dentro de la clase `btn-group` tengan un color de fondo rojo
-```
+
+```scss
 .btn-group{
    .btn{
       background-color: red;
    }
 }
 ```
+
 3. Ahora usando combinadores de hijo directo vamos hacer que el span dentro de un boton tengan un color de fondo azul
-```
+
+```scss
 .btn{
    > span{
       background-color: blue;
    }
 }
 ```
+
 4. Ahora usando combinadores de hermanos adyacentes vamos hacer que la etiqueta `button` la letra sea de 36px cuando este seguida de un `div`
-```
+
+``` scss
 div{
    + button{
       font-size:36px
@@ -210,7 +230,8 @@ div{
 }
 ```
 5. Si revisamo el css generado nos quedara algo como lo siguiente:
-```
+
+```scss
 .btn-group .btn {
   background-color: red;
 }
@@ -226,10 +247,12 @@ div + button {
 
 
 ### Ejercicio 2
-### Base
 
-Crean un archivo html y pegar el siguiente segmento de código en el body
-```
+#### Base
+
+Crear un archivo html y pegar el siguiente segmento de código en el body
+
+```html
    <div>
       <p><span>Lorem ipsum dolor sit amet.</span></p>
       <p>Lorem ipsum dolor sit amet.</p>
@@ -242,38 +265,39 @@ Crean un archivo html y pegar el siguiente segmento de código en el body
    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dolor!</h1>
    <p><span>Lorem ipsum dolor sit amet.<span>Lorem ipsum dolor sit amet.</span></span></p>
    <p><span>Dolor sapiente dolores earum repellendus.<span>Laudantium rem quia nobis neque?</span></span></p>
-
 ```
 
-### Parte 1
+#### Parte 1
 
 Usando combinadores de espacio en Sass darle los siguientes estilos:
 
 - A las `p` que están dentro del div dar un color de fondo `blue`
 - A los `span` que están dentro del div darle un color de fondo `red`
 
-### Parte 2
+#### Parte 2
 
 Usando combinadores de hijo(>) en Sass darle los siguientes estilos:
 
 - A los `span` que son hijos directos del una etiqueta `p` cambiar el color a un `green`.
 
-### Parte 3
+#### Parte 3
 
 Usando combinadores de hermanos adyacentes(+) en Sass darle los siguientes estilos:
 
 - A los `p` que son hermanos adyacentes del `h1` cambiar el tamaño de letra por `24px`
 
-### Parte 4
+#### Parte 4
 
 Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilos:
 
 - A los `p` que son hermanos generales del `div` cambiar el fondo de color por `silver`
 
-## Selector padre
-### Ejercicio 1
+### Selector padre
+
+#### Ejercicio 1
+
 1. Crean un archivo html y pegar el siguiente segmento de código en el body
-```
+```html
    <div class="btn-group">
       <button type="button" class="btn">Left</button>
       <button type="button" class="btn">Middle</button>
@@ -282,7 +306,7 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
    <button type="button" class="btn btn--primary">Right</button>
 ```
 2. Usando selector padre vamos hacer que los elemento con la clase `btn` tengan el fondo de color rojo dentro del `btn-group`
-```
+```scss
 .btn-group{
    & .btn{
       background-color: red;
@@ -330,7 +354,7 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
 
 
 ### Ejercicio 2
-### Base
+#### Base
 
 Crean un archivo html y pegar el siguiente segmento de código en el body
 
@@ -349,7 +373,7 @@ Crean un archivo html y pegar el siguiente segmento de código en el body
    </div>
 ```
 
-### Enunciado
+# Enunciado
 
 1. Usando el selector padre darle estilo a la card
 
@@ -371,14 +395,16 @@ Crean un archivo html y pegar el siguiente segmento de código en el body
   - Cuando está en estado de `active` que el color de fondo cambie a `#742a2a`
 
 ## Integrador
-Recorda que tenes recursos como los siguientes:
-* [Unsplah](https://unsplash.com/) para imagenes
-* [Google Font](https://fonts.google.com/) para la familia de letras
-* [Randomuser](https://randomuser.me/photos) para foto de perfil aleatorias
 
 Utilizando todo lo visto realizar los siguientes maquetados:
+
 * ![Success Toasts](https://uidesigndaily.com/uploads/1012/day_1012.png)
 * ![Cards](https://uidesigndaily.com/uploads/1117/day_1117.png)
 * ![Blog Cards](https://uidesigndaily.com/uploads/997/day_997.png)
 * ![App List](https://uidesigndaily.com/uploads/1057/day_1057.png)
 
+Recordá que tenes recursos como los siguientes:
+
+* [Unsplah](https://unsplash.com/) para imagenes
+* [Google Font](https://fonts.google.com/) para la familia de letras
+* [Randomuser](https://randomuser.me/photos) para foto de perfil aleatorias
