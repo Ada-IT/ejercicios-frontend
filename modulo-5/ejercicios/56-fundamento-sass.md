@@ -182,13 +182,14 @@ text-xl: 35px
 4. La clase `first` debe ocupar un 20% del total del 100% del ancho,es decir, hay que dividir 100% por 5. No olvides de colocar los parentesis
 5. La clase `second` debe ocupar un 80% del total del 100% del ancho,es decir, hay que dividir 100% por 1.25. No olvides de colocar los parentesis
 
-
 ### Ejercicio 7 - Integrador
 
 Se quiere crear un contenedor principal que ocupe el 100% del ancho y 120 px de alto.Además que dentro posea 3 cajas de diferente color y cada una ocupe un 30% del ancho total y 150 px de alto.Aclaración no debe haber salto de línea, es decir, que las tres caja se encontraran una a lado de la otra.
 
 ## Anidado
-### Ejercio 1
+
+### Ejercicio 1
+
 1. Crean un archivo html y pegar el siguiente segmento de código en el body
 
 ```html
@@ -229,7 +230,8 @@ div{
    }
 }
 ```
-5. Si revisamo el css generado nos quedara algo como lo siguiente:
+
+5. Si revisamos el css generado nos quedara algo como lo siguiente:
 
 ```scss
 .btn-group .btn {
@@ -245,7 +247,6 @@ div + button {
 }
 ```
 
-
 ### Ejercicio 2
 
 #### Base
@@ -253,18 +254,18 @@ div + button {
 Crear un archivo html y pegar el siguiente segmento de código en el body
 
 ```html
-   <div>
-      <p><span>Lorem ipsum dolor sit amet.</span></p>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <p>Impedit quod sit dignissimos ratione.</p>
-      <p>Esse suscipit pariatur quibusdam illum.</p>
-      <p><span>Lorem ipsum dolor sit amet.</span></p>
-   </div>
-   <p><span>Lorem ipsum dolor sit amet.<span>Lorem ipsum dolor sit amet.</span></span></p>
-   <p><span>A voluptatem nihil deleniti modi!<span>Ut distinctio iusto placeat nisi.</span></span></p>
-   <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dolor!</h1>
-   <p><span>Lorem ipsum dolor sit amet.<span>Lorem ipsum dolor sit amet.</span></span></p>
-   <p><span>Dolor sapiente dolores earum repellendus.<span>Laudantium rem quia nobis neque?</span></span></p>
+<div>
+  <p><span>Lorem ipsum dolor sit amet.</span></p>
+  <p>Lorem ipsum dolor sit amet.</p>
+  <p>Impedit quod sit dignissimos ratione.</p>
+  <p>Esse suscipit pariatur quibusdam illum.</p>
+  <p><span>Lorem ipsum dolor sit amet.</span></p>
+</div>
+<p><span>Lorem ipsum dolor sit amet.<span>Lorem ipsum dolor sit amet.</span></span></p>
+<p><span>A voluptatem nihil deleniti modi!<span>Ut distinctio iusto placeat nisi.</span></span></p>
+<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dolor!</h1>
+<p><span>Lorem ipsum dolor sit amet.<span>Lorem ipsum dolor sit amet.</span></span></p>
+<p><span>Dolor sapiente dolores earum repellendus.<span>Laudantium rem quia nobis neque?</span></span></p>
 ```
 
 #### Parte 1
@@ -292,9 +293,9 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
 
 - A los `p` que son hermanos generales del `div` cambiar el fondo de color por `silver`
 
-### Selector padre
+## Selector padre
 
-#### Ejercicio 1
+### Ejercicio 1
 
 1. Crean un archivo html y pegar el siguiente segmento de código en el body
 ```html
@@ -306,6 +307,7 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
    <button type="button" class="btn btn--primary">Right</button>
 ```
 2. Usando selector padre vamos hacer que los elemento con la clase `btn` tengan el fondo de color rojo dentro del `btn-group`
+
 ```scss
 .btn-group{
    & .btn{
@@ -314,7 +316,8 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
 }
 ```
 3. Ahora queremos que `btn` tenga un color verde y cuando le hagamos `hover` cambie el color a violeta
-```
+
+```scss
 .btn{
       background-color: green;
       &:hover{
@@ -324,7 +327,8 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
 ```
 
 4. Por ultimo queremos tener una variante de esta con el color azul de fondo.Cambiamos el codigo a:
-```
+
+```scss
 .btn{
       background-color: green;
       &:hover{
@@ -336,7 +340,8 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
 }
 ```
 5. Si revisamo el css generado nos quedara algo como lo siguiente:
-```
+
+```css
 .btn-group .btn {
   background-color: red;
 }
@@ -354,23 +359,24 @@ Usando combinadores generales de hermanos(~) en Sass darle los siguientes estilo
 
 
 ### Ejercicio 2
+
 #### Base
 
 Crean un archivo html y pegar el siguiente segmento de código en el body
 
-```
-   <div class="card">
-      <div class="card__header">
-         <h3>Soy un card</h3>
-      </div>
-   <div class="card__body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, sapiente.</p>
-   </div>
-      <div class="card__footer">
-         <button class="button button--primary">Aceptar</button>
-         <button class="button button--danger">Cancelar</button>
-      </div>
-   </div>
+```html
+<div class="card">
+  <div class="card__header">
+    <h3>Soy un card</h3>
+  </div>
+  <div class="card__body">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, sapiente.</p>
+  </div>
+  <div class="card__footer">
+    <button class="button button--primary">Aceptar</button>
+    <button class="button button--danger">Cancelar</button>
+  </div>
+</div>
 ```
 
 # Enunciado
