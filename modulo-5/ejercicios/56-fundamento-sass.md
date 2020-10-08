@@ -404,10 +404,13 @@ Crean un archivo html y pegar el siguiente segmento de código en el body
 
 Utilizando todo lo visto realizar los siguientes maquetados:
 
-* ![Success Toasts](https://uidesigndaily.com/uploads/1012/day_1012.png)
-* ![Cards](https://uidesigndaily.com/uploads/1117/day_1117.png)
-* ![Blog Cards](https://uidesigndaily.com/uploads/997/day_997.png)
-* ![App List](https://uidesigndaily.com/uploads/1057/day_1057.png)
+![Success Toasts](https://uidesigndaily.com/uploads/1012/day_1012.png)
+
+![Cards](https://uidesigndaily.com/uploads/1117/day_1117.png)
+
+![Blog Cards](https://uidesigndaily.com/uploads/997/day_997.png)
+
+![App List](https://uidesigndaily.com/uploads/1057/day_1057.png)
 
 Recordá que tenes recursos como los siguientes:
 
