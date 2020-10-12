@@ -55,7 +55,7 @@ Crear los componentes card, button y badge. Asigarle una variable de color y lue
 4. Lo importamos en el archivo `main.scss`
 5. Le damos estilos a todos los elementos mencionados
 6. En el archivo de `variables` creamos 4 variables para los colores
-   ```
+   ```scss
    $primary: #007bff;
    $secondary:#6c757d;
    $background: #f8f9fa;
@@ -68,7 +68,7 @@ Crear los componentes card, button y badge. Asigarle una variable de color y lue
 8. Agregamos un título dentro de la card, le asignamos una clase y en el archivo de `card` le asignamos la variable `$primary`
 9. Vamos a cambiar los colores, para esto modificamos las variables y las cambiamos por las siguientes:
 
-```
+```scss
 	$primary: #ffc107;
 	$secondary:#fd7e14;
 	$background: #17a2b8;
@@ -160,7 +160,7 @@ text-xl: 35px
 
 2. Dar los siguientes estilos
 
-```css
+```scss
 .box{
   display: flex;
 }

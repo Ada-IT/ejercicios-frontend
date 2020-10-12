@@ -14,7 +14,7 @@ Vamos a empezar a utilizar para nuestro proyecto, queremos hacer un botón funci
 1. Creamos el archivo index.html y lo completamos con el contenido mínimo y colocamos un botón con la clase button y el texto `"Nuevo boton"`.
 2. Creamos el archivo main.scss y le damos estilos siguientes estilos
 
-```
+```scss
 padding: 0.35rem;
 background-color: #007bff;
 color: #fff;
@@ -88,7 +88,7 @@ Dado que cada archivo va a tener una sola responsabilidad, vamos a tener que imp
 
 1. En el archivo `"main.scss"` vamos a importar cada uno de los archivos
 
-```
+```scss
 @import 'base/typography',
 @import 'components/card',
 @import 'layout/footer',
