@@ -133,7 +133,7 @@ Los siguientes ejercicios se realizan usando:
 
 - `prompt` para pedir ingresar datos
 - `confirm` para pedir por sí o por no (opción binaria)
-- `alert` para mostrar informaci´ón
+- `alert` para mostrar información
 
 Crear un archivo de `.js` para cada ejercicio.
 
@@ -143,7 +143,7 @@ Crear un programa que pida ingresar un nombre, pregunta si el nombre es correcto
 
 ```javascript
 const nombre = prompt('Por favor, ingresá tu nombre')
-const respuesta = confirm('¿˘Estás segura que te llamás así?')
+const respuesta = confirm('¿Estás segura que te llamás así?')
 
 if (respuesta) {
   alert(`¡Hola ${nombre}!`)
