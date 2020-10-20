@@ -1,15 +1,15 @@
 ## Ejercicio 1: Callbacks: Crear usuario
 * Crearemos una función "crearUsuario" donde recibirá como argumento únicamente el callback.
 * Esta función pedirá su nombre de usuario mediante un prompt.
-    *  Una vez haya ingresado el nombre de usaurio, se ejecutara el callback que debe mostrar un mensaje al usuario que la creación ha sido exitosa. 
+    *  Una vez haya ingresado el nombre de usaurio, se ejecutará el callback que debe mostrar un mensaje al usuario que la creación ha sido exitosa. 
 
-    const MensajeConfirmacion = () => alert("¡Se creo el usuario exitosamente!") // callback
+    const MensajeConfirmacion = () => alert ("¡Se creó el usuario exitosamente!") // callback
  
     crearUsuario(MensajeConfirmacion) //Función
 
 
 ## Ejercicio 2: Creación usuario 2
-* Crearemos una funcion donde recibira como argumento un callback  para validar el nombre recibido mediante un prompt. 
+* Crearemos una funcion donde recibira como argumento un callback   para validar el nombre recibido mediante un prompt. 
     * Este callback tomara un string como parametro y retornara true o false si es que el parametro pasa la validacion:
     
 * Que el string no tenga espacios
@@ -25,18 +25,18 @@
 
 
 ## Ejercicio 4: Países por región
-* crearemos un listado con los siguientes paises y una función que tome el valor seleccionado una vez finalizado esto se debe llamar a un callback para validar a que continente pertenece cada pais seleccionado.
+* crearemos un listado con los siguientes países y una función que tome el valor seleccionado una vez finalizado esto se debe llamar a un callback para validar a que continente pertenece cada pais seleccionado.
 
     Paises = ["Argentina", "Estados Unidos", "Japón", "Australia"]
 
 
 ## Ejercicio 5: País existente
-* Realizar una función que le permita al usuario ingresar un país mediante un prompt y enviarlo como parámetro al callback (Utilizar el array del punto anterior) .
-* Esta funcion debera devolver una alerta mediante un popup para saber si el pais existe o no.
+* Realizar una función que le permita al usuario ingresar un país mediante un prompt y enviarlo como parámetro al callback (Utilizar el array del punto anterior).
+* Esta función deberá devolver una alerta mediante un popup para saber si el país existe o no.
 
 
 ## Ejercicio 6: Tarea completada
-* Crearemos  un campo de texto con un valor "cargando..." y al cabo de 5 segundos ese texto debe llamar a una funcion que actualide el texto a "Tarea realizada".
+* Crearemos un campo de texto con un valor "cargando..." y al cabo de 5 segundos ese texto debe llamar a una función que actualice el texto a "Tarea realizada".
 
 
 ## Ejercicio 7: Bloqueo de acción
@@ -44,7 +44,7 @@
 
 
 ## Ejercicio 8: Cargando tabla
-* Crearemos una tabla de usuarios que contendrá los siguientes campos.(Insertar al menos 6 registros.)
+* Crearemos una tabla de usuarios que contendrá los siguientes campos. (Insertar al menos 6 registros.)
 1. Nombre
 1. Apellido
 1. Email
@@ -54,21 +54,21 @@
         * Crearemos una función con un timeout de 10 segundos y una vez transcurrido este tiempo debe ocultar el div con el busy indicator permitiendo visualizar los datos de la tabla.
 
 
-## Ejercicio 9: Validacion de elementos dentro de un arreglo.
-* Dado el siguiente arreglo realizaremos una función que reciba un callback como parametro, este deb validar si alguno de los elementos esta repetido.
+## Ejercicio 9: Validación de elementos dentro de un arreglo.
+* Dado el siguiente arreglo realizaremos una función que reciba un callback como parámetro, este debe validar si alguno de los elementos esta repetido.
 
     Num= [1, 3, 8, 11, 53, 2, 53, 8]
 
 
-## Ejercicio 10: Validacion de Números primos
-* Crear una funcion que reciba un callback como parametro y solicitarle a el usuario mediante un prompt que ingrese un numero y el callback debe validar si el numero ingresado es primo o no y mostrar un menssaje de alerta en pantalla.
+## Ejercicio 10: Validación de Números primos
+* Crear una función que reciba un callback como parámetro y solicitarle al usuario mediante un prompt que ingrese un número y el callback debe validar si el numero ingresado es primo o no y mostrar un mensaje de alerta en pantalla.
 
         
 
         function callbackEsPrimo(numero){
             //casos especiales
     if (numero == 0 || numero == 1 || numero == 4) return alert("No es primo");
-        for (let x = 2; x < numero / 2; x++) {
+        for (let x = 2; x < número / 2; x++) {
             if (numero % x == 0) return alert("No es primo");
         }
 
