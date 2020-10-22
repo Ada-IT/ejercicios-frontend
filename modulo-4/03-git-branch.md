@@ -118,7 +118,7 @@ En caso de que entre en conflicto, se nos pide que procedamos a borrar la catego
    > git rm comedia.txt
 10. Hacemos un commit con el mensaje "Se fusionó correctamente master con terror"
 
-### Ejercicio 9 - Integral
+### Ejercicio 8 - Integral
 
 **Contexto:**
 Estamos trabajando para una empresa de software y nos designan en un equipo de trabajo como el único programador para un pequeño desarrollo.
