@@ -125,6 +125,26 @@ avanzarSemaforo('amarillo')  // 'rojo'
 avanzarSemaforo('rojo')      // 'verde'
 ```
 
+### `obtenerDiasMes(mes)`
+
+Crear una función `obtenerDiasMes` que tome como argumento un string `mes` y devuelva un número dependiendo de la cantidad de días que tenga ese mes
+
+```javascript
+obtenerDiasMes("diciembre") // 31
+obtenerDiasMes("febrero")   // 29
+```
+
+### `obtenerGeneracion(anioNacimiento)`
+
+Crear una función `obtenerGeneracion` que tome como argumento un número `anioNacimiento` y devuelva un string con la generación a la que pertenece, siguientdo estas reglas:
+
+| Generación | Años de nacimiento |
+| --- | --- |
+| Baby boomer | 1949-1968 |
+| Generación X | 1969-1980 |
+| Millennials | 1981-1993 |
+| Generación Z | 1994-2010 |
+
 ### `obtenerSensacion(temperatura)`
 
 Crear una función `obtenerSensacion` que tome como argumento un número `temperatura` y devuelva un string dependiendo de la `temperatura`, con las siguientes reglas:
