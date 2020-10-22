@@ -123,23 +123,26 @@ En caso de que entre en conflicto, se nos pide que procedamos a borrar la catego
 **Contexto:**
 Estamos trabajando para una empresa de software y nos designan en un equipo de trabajo como el único programador para un pequeño desarrollo.
 Nos piden realizar una página web con lista de películas.
+
 **Aclaracion**: Lo importante es el contenido de los archivos y no el correcto funcionamiento del código.
+
 **Tareas**
-**Primera entrega**
-Nos piden que creemos un archivo base html con un listado de 5 películas e Iniciemos un repositorio.
-**Segunda entrega**
-Nos piden que trabajemos en una rama llama `"dev"` por que la rama `"master"` está en producción y lo ven clientes.
-En adelante cada trabajo que realizaremos trabajaremos sobre la rama dev,a menos que se nos aclare .
-Por último nos piden separar las películas por categoría y agregarlo a producción.
-**Tercera entrega**
-Nos piden que agreguemos un archivo de lista de series y otro de estrenos.
-**Cuarta entrega**
-Nos avisan que hay un error en producción que las películas en el archivo base y estrenos deben estar ordenadas de forma alfabética, para solucionar esto nos piden movamos a producción y creemos una rama llamada hotfix. Arreglemos el problema y lo fusionemos con master.
-**Quinta entrega**
-Nos piden que agreguemos 3 películas más y que por la poca demanda que borremos el archivo de estrenos.Una vez terminado agregarlo a producción
-**Sexta entrega**
-Se nos une al equipo un miembro nuevo llamada Artemisa.Para poder diferencia quien hace cada cosa.Nos piden que le cambiemos el nombre a nuestra rama por nuestro nombre y creemos otra rama llamada Artemisa
-**Séptima entrega**
-A Artemisa se le pide agregar 5 series de comedia, pero como esta ocupado con algo más de urgencia, te piden que lo realices en la rama de ella.
-Además te solicitan que agregues 5 series de animación en tu rama.
+
+- **Primera entrega**
+  Nos piden que creemos un archivo base html con un listado de 5 películas e Iniciemos un repositorio.
+- **Segunda entrega**
+  Nos piden que trabajemos en una rama llama `"dev"` por que la rama `"master"` está en producción y lo ven clientes.
+  En adelante cada trabajo que realizaremos trabajaremos sobre la rama dev,a menos que se nos aclare .
+  Por último nos piden separar las películas por categoría y agregarlo a producción.
+- **Tercera entrega**
+  Nos piden que agreguemos un archivo de lista de series y otro de estrenos.
+- **Cuarta entrega**
+  Nos avisan que hay un error en producción que las películas en el archivo base y estrenos deben estar ordenadas de forma alfabética, para solucionar esto nos piden movamos a producción y creemos una rama llamada hotfix. Arreglemos el problema y lo fusionemos con master.
+- **Quinta entrega**
+  Nos piden que agreguemos 3 películas más y que por la poca demanda que borremos el archivo de estrenos.Una vez terminado agregarlo a producción
+- **Sexta entrega**
+  Se nos une al equipo un miembro nuevo llamada Artemisa.Para poder diferencia quien hace cada cosa.Nos piden que le cambiemos el nombre a nuestra rama por nuestro nombre y creemos otra rama llamada Artemisa
+- **Séptima entrega**
+  A Artemisa se le pide agregar 5 series de comedia, pero como esta ocupado con algo más de urgencia, te piden que lo realices en la rama de ella.Además te solicitan que agregues 5 series de animación en tu rama.
+
 Por último cuando este completo te piden que lo agregues a master.
