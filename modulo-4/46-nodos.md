@@ -78,5 +78,3 @@ Debemos solicitarle al usuario mediante un prompt o input. Que ingrese 2 (x  y) 
 En base a ello crearemos una matriz, no pudiendo ser esta mayor a 8x8 (Realizar validación numérica y máxima).
 
 Luego en base a estos valores crearemos mediante nodos div siendo x para los valores horizontales e y para los verticales:
-
-
