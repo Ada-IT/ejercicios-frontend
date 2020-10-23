@@ -1,80 +1,154 @@
-## Ejercitacion Nodos.
- * Los ejercicios que vamos a ver a continuacion se desarrolaran en Nodos accediendo al DOM sin usar HTML.
+# 🌳 DOM - Nodos
 
-## Ejercicio 1 : Creación nodo.
-* Crear un nodo de tipo h1
-    * Asignarle un texto "Ejercitación n 1"
-    * Colocarle un color y una fuente a elección accendiendo desde el DOM.
+## Ejercicios
 
+Los ejercicios a continuación, _a menos que se indique lo contrario_, deben realizarse manipulando el DOM mediante JavaScript, es decir, creando elementos y modificando sus atributos y propiedades, no definiéndolos en el documento `html`.
 
-## Ejercicio 2: Crear una lista 
-1. Crear un elemento desde el DOM de tipo <ol>
-    * Asignarle 3 etiquetas de tipo li
-        * Le asignaremos los siguientes textos a las etiquetas:
-         Home
-         Nosotros
-         Contacto
+Recordá que luego de crear los elementos deben agregarse al documento o a algún otro elemento que se encuentre en el mismo.
 
-1. Replicar una lista a traves de Nodos similar a la siguiente 
+### Ejercicio 1 : Creación de nodo.
 
- <ul> 
-<li>Verduras </li>
-<li>Garbanzos</li>
-<li>Frutas</li>
+1. Crear un nodo de tipo h1
+2. Asignarle un texto `Hola DOM!`
+3. Colocarle un color, un tamaño de texto y una familia de fuente a elecci´ón.
+
+### Ejercicio 2: Creación de listas
+
+1. Crear un elemento desde el DOM de tipo `ol`
+2. Asignarle 3 elementos de tipo `li`, con lo siguientes textos:
+
+   - Home
+   - Nosotros
+   - Contacto
+
+### Ejercicio 2: Listas anidadas
+
+Replica la siguiente estructura HTML mediante la creación de nodos
+
+```html
+<ul>
+  <li>Verduras</li>
+  <li>Garbanzos</li>
+  <li>
+    Frutas
     <ul>
-     <li>Manzanas</li>
-     <li>Naranjas</li>
-     <li>Bananas</li>
-     <li>Frutillas</li>
-     </ul>
-</li>
+      <li>Manzanas</li>
+      <li>Naranjas</li>
+      <li>Bananas</li>
+      <li>Frutillas</li>
+    </ul>
+  </li>
+</ul>
+```
 
- 1. Dado el siguiente arreglo iteraremos una lista con un boton que al clickear ira mostrando mes a mes hasta llegar a su final. Una vez finalizado comenzara de nuevo.
+### Ejercicio 3: Botones
 
- let Meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", Septiembre", "Octubre", "Noviembre", "Diciembre"] .
+Por cada ítem de la siguiente lista, crear un botón con el texto de dicho ítem. Al clickear un bot´ón, debe aparecer un `alert` que diga `Has clickeado el mes X`, dependiendo del mes clickeado (por ejemplo, `Has clickeado el mes: Mayo`)
 
- 
+```js
+const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] .
+```
 
-## Ejercicio 3: Crear nodos
-* Crearemos una tabla con 3 columnas: Nombre, Teléfono y Dirección:
-    * Le agregaremos 3 Filas con los siguientes datos:
-        "Leonela", "1511224455", "Cabildo 2360"
-        "Paulina", "1533997272", "San Juan 3380"
-        "Marcos", "1456792921", "San Martin 135"
-    * Accederemos a traves del DOM  a la segunda fila de la tabla modificando el nombre de "Paulina" por "Paula".
-        
+### Ejercicio 4: Lista de tareas
 
+Crear una lista desordenada. Por cada ítem del array, crear un ítem de lista con el texto de dicho ítem y un botón que diga `Eliminar`. Al clickear el botón, se debe eliminar de la lista el nodo correspondiente.
 
-## Ejercicio 4: Eliminar Nodo
-* Dado el siguiente HTML accediendo desde el DOM debemos eliminar el elemento de la lista cuyo texto es:"Julio"
- <ol>
-  <li>Julio</li>
-  <li>Carmen</li>
-  <li>Maria</li>
-  <li>Elena</li>
-</ol>
+```js
+const tareas = [
+  'Comprar comida',
+  'Estudiar para examen',
+  'Pagar impuestos',
+  'Pasear a perro',
+  'Comprar entradas para el cine',
+]
+```
 
+### Ejercicio 5: Prioridades
 
-## Ejercicio 5: Cambiar estilos a los elementos anteriores
-Haremos que el div padre del ejercicio anterior tenga un alto de 800 y un ancho de 600.
-y el elemento hijo un margen de 10px y un color a elección.
+Crear una lista desordenada. Por cada ítem del array, crear un ítem de lista con el texto de dicho ítem. Cada vez que se clickea el ítem, debe ir cambiando de color, siguiendo este orden: `gris -> celeste -> amarillo -> rojo`. Cuando llega al último color y se lo vuelve a clickar, debe volver al primer color.
 
+```js
+const tareas = [
+  'Comprar comida',
+  'Estudiar para examen',
+  'Pagar impuestos',
+  'Pasear a perro',
+  'Comprar entradas para el cine',
+]
+```
 
-## Ejercicio 6: Grilla para tatetí
-* Debemos crear un div y ponerle la clase contenedor en HTML.
-* Crear en la hoja de estilos la clase contenedor y asignarle un height y un width de 600px. Debe ser flexible y tiene   
- que contener un flex-wrap: wrap; .
-* A este div le introduciremos una variable llamada  grilla, (en JavaScript) que sera una matriz de 3x3, y recorreremos cada item agregandole un contenedor div con una clase llamada tateti. 
-* Luego en css a la clase tateti deben darle un alto y un ancho de 180px y un margen de 10px.
+### Ejercicio 6: Tatetí
 
+1. En un documento `.html`, agregar dentro del `body` lo siguiente:
 
-## Ejercicio 7: Adicionar elementos a un listado
-Se debe crear un campo input con un botón de agregar o 
+```html
+<div class="tablero"></div>
+```
+
+2. En un archivo `.css`, agregar lo siguiente:
+
+```css
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+}
+
+.casilla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  font-size: 60px;
+  font-weight: bold;
+}
+```
+
+3. Por cada ítem de la siguiente matriz, agregar al elemento tablero un elemento `div` que contenga como texto dicho ítem:
+
+```js
+const tablero = [
+  ['X', 'O', 'X'],
+  ['O', 'X', 'X'],
+  ['O', 'O', 'X'],
+]
+```
+
+4. Al clickear cada casilla, se debe cambiar el texto de la siguiente forma:
+
+- Si hay una `X`, cambiar a una `O`
+- Si hay una `O`, dejarla vacía
+- Si está vacía, cambiar a una `X`
+
+### Ejercicio 7: Adicionar elementos a un listado
+
+Se debe crear un campo input con un botón de agregar o
 "+" y el texto que se ingrese en ese input, tras presionar el botón, se debe adicionar a una lista.
 
+### Ejercicio 8: Grilla Dinámica
 
-## Ejercicio 8: Grilla Dinámica
-Debemos solicitarle al usuario mediante un prompt o input. Que ingrese 2 (x  y) valores numéricos. 
+Debemos solicitarle al usuario mediante un prompt o input. Que ingrese 2 (x y) valores numéricos.
 En base a ello crearemos una matriz, no pudiendo ser esta mayor a 8x8 (Realizar validación numérica y máxima).
 
 Luego en base a estos valores crearemos mediante nodos div siendo x para los valores horizontales e y para los verticales:
+
+```
+
+```
