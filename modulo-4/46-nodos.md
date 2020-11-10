@@ -10,7 +10,7 @@ Recordá que luego de crear los elementos deben agregarse al documento o a algú
 
 1. Crear un nodo de tipo h1
 2. Asignarle un texto `Hola DOM!`
-3. Colocarle un color, un tamaño de texto y una familia de fuente a elecci´ón.
+3. Colocarle un color, un tamaño de texto y una familia de fuente a elección.
 
 ### Ejercicio 2: Creación de listas
 
@@ -23,7 +23,7 @@ Recordá que luego de crear los elementos deben agregarse al documento o a algú
 
 ### Ejercicio 2: Listas anidadas
 
-Replica la siguiente estructura HTML mediante la creación de nodos
+Replica la siguiente estructura HTML creando nodos mediante javascript
 
 ```html
 <ul>
@@ -43,7 +43,7 @@ Replica la siguiente estructura HTML mediante la creación de nodos
 
 ### Ejercicio 3: Botones
 
-Por cada ítem de la siguiente lista, crear un botón con el texto de dicho ítem. Al clickear un bot´ón, debe aparecer un `alert` que diga `Has clickeado el mes X`, dependiendo del mes clickeado (por ejemplo, `Has clickeado el mes: Mayo`)
+Por cada ítem de la siguiente lista, crear un botón con el texto de dicho ítem. Al clickear un botón, debe aparecer un `alert` que diga `Has clickeado el mes X`, dependiendo del mes clickeado (por ejemplo, `Has clickeado el mes: Mayo`)
 
 ```js
 const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] .
@@ -65,7 +65,7 @@ const tareas = [
 
 ### Ejercicio 5: Prioridades
 
-Crear una lista desordenada. Por cada ítem del array, crear un ítem de lista con el texto de dicho ítem. Cada vez que se clickea el ítem, debe ir cambiando de color, siguiendo este orden: `gris -> celeste -> amarillo -> rojo`. Cuando llega al último color y se lo vuelve a clickar, debe volver al primer color.
+Crear una lista desordenada. Por cada ítem del array, crear un ítem de lista con el texto de dicho ítem. Cada vez que se clickea el ítem, debe ir cambiando de color, siguiendo este orden: `gris -> celeste -> amarillo -> rojo`. Cuando llega al último color y se lo vuelve a clickear, debe volver al primer color.
 
 ```js
 const tareas = [
@@ -77,7 +77,21 @@ const tareas = [
 ]
 ```
 
-### Ejercicio 6: Tatetí
+### Ejercicio 6: Completar tareas
+
+Crear una lista desordenada. Por cada ítem del array, crear un ítem de lista con el texto de dicho ítem y un checkbox. Si el checkbox está tildado, al texto deben agregarse los estilos `text-decoration: line-through; color: gray;`. Si está destildado, debe volver a la normalidad.
+
+```js
+const tareas = [
+  'Comprar comida',
+  'Estudiar para examen',
+  'Pagar impuestos',
+  'Pasear a perro',
+  'Comprar entradas para el cine',
+]
+```
+
+### Ejercicio 7: Tatetí
 
 1. En un documento `.html`, agregar dentro del `body` lo siguiente:
 
@@ -137,18 +151,53 @@ const tablero = [
 - Si hay una `O`, dejarla vacía
 - Si está vacía, cambiar a una `X`
 
-### Ejercicio 7: Adicionar elementos a un listado
+## Ejercicio 8: Grilla
 
-Se debe crear un campo input con un botón de agregar o
-"+" y el texto que se ingrese en ese input, tras presionar el botón, se debe adicionar a una lista.
+Crear una función `generarGrilla(filas, columnas, contenedor, claseCasilla)` que tome por parámetros:
+- un número `filas`, representando la cantidad de filas
+- un número `columnas`, representando la cantidad de columnas
+- un nodo HTML `contenedor` que es el elemento donde se va crear la grilla
+- un string `claseCasilla`, que es la clase que se le va a agregar a cada casilla
 
-### Ejercicio 8: Grilla Dinámica
+La función debe en el elemento `contenedor` agregar `filas * columnas` cantidad de casillas, con clase `claseCasilla`, de ancho `ancho contenedor / columnas` y de alto `alto contenedor / filas`.
 
-Debemos solicitarle al usuario mediante un prompt o input. Que ingrese 2 (x y) valores numéricos.
-En base a ello crearemos una matriz, no pudiendo ser esta mayor a 8x8 (Realizar validación numérica y máxima).
-
-Luego en base a estos valores crearemos mediante nodos div siendo x para los valores horizontales e y para los verticales:
+El elemento contenedor debe tener los siguientes estilos:
 
 ```
+.contenedor {
+   display: flex;
+   flex-wrap: wrap;
+   width: 800px;
+   height: 800px;
+   border: 1px solid #000;
+}
+```
 
+## Ejercicio 9: Puntaje
+
+Crear en un documento html un `input` y un `div`.
+
+- al escribir algo en el `input` y apretar "enter", agregue un nuevo puntaje al `div`
+- si el `input` está vacío, no debe agregar nada
+- cuando se apreta "enter", el `input` debe vaciarse
+- el puntaje (otro `div` contenedor) contiene: 
+      - un elemento `span` para mostrar el nombre (que se agregó mediante el input)
+      - un elemento `span` para mostrar el puntaje (que comienza en 0) 
+      - un botón para incrementar el puntaje 
+      - un botón para disminur el puntaje
+- al presionar los botones se modifica el puntaje de cada jugador incrementándose o disminuyendo respectivamente
+- el puntaje mínimo es 0
+
+Ejemplo
+
+```
+[Ingrese un nuevo nombre...]
+
+Jeff    100 puntos    [+][-]
+Britta  50 puntos     [+][-]
+Abed    500 puntos    [+][-]
+Troy    200 puntos    [+][-]
+Annie   250 puntos    [+][-]
+Shirley 400 puntos    [+][-]
+Pierce  20 puntos     [+][-]
 ```
