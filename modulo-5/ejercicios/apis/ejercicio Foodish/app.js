@@ -17,3 +17,18 @@ buttonBirtani.addEventListener("click",()=>{
 buttonAll.addEventListener("click",()=>{
     changeImage()
 })
+
+
+/* https://dog.ceo/api/breeds/image/random/50 */
+
+
+var myBlob = new Blob([JSON.stringify({casa:"test"})], {type: 'text/plain'});
+ 
+// (2) CREATE DOWNLOAD LINK
+var url = window.URL.createObjectURL(myBlob);
+var anchor = document.createElement("a");
+anchor.href = url;
+anchor.download = "HelloWorld.txt";
+anchor.click();
+window.URL.revokeObjectURL(url);
+document.removeChild(anchor);

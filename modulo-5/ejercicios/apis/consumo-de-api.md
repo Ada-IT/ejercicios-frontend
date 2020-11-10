@@ -9,7 +9,7 @@ Utilizando el témplate de `ejercicio Zorro`, se debe generar una imagen aleator
 
 ### Ejercicio 2 - Shiba Inu
 api: [https://shibe.online/](https://shibe.online/)
-Utilizando el témplate de `ejercicio Shiba Inu`, se debe generar dos imagenes aleatoria cuando se apriete el botón.
+Utilizando el témplate de `ejercicio Shiba Inu`, se debe generar dos imágenes aleatoria cuando se apriete el botón.
 
 ### Ejercicio 3 - Si o NO
 api: [https://yesno.wtf/api](https://yesno.wtf/api)
@@ -27,5 +27,9 @@ Utilizando el témplate de `ejercicio Foodish Card`, se debe generar una card nu
 #### Creando Cards
 Utilizando el témplate de `ejercicio Foodish Cards`, cuando se abre la página se debe renderizar un listado de cards.
 
-#### Agregando Filters  
+#### Agregando Filters - minima cantidad de peticiones
 Utilizando el témplate de `ejercicio Foodish Cards Filters`, cuando se abre la página se debe renderizar un listado de cards. Además se agregan 4 botones para filtrar por ABV(Alcohol by Volume). En los rangos de 0% a 5%, de 5.1% a 7.5%, de 7.6% a 50% y el último filtro debe mostrar todas las cervezas. Dada por la poca data que utiliza la Api se opta por guardar todos los datos y luego filtrarlos, de forma tal que la única petición que se realice a la Api sea la de la primera carga. 
+
+#### Agregando Filters - minima cantidad de computos 
+Repetir el ejercicio anterior, pero ahora cada vez que se haga click en unos de los filtros se debe hacer la peticion requerida.
+
