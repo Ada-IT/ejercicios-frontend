@@ -1,0 +1,57 @@
+/* <- Demo Stuff Start */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+
+  .btn {
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    color: white;
+    background-color: #14213d;
+    outline: none;
+    border:none;
+    cursor: pointer;
+   }
+  
+  .btn:hover {
+    color: #14213d;
+    background-color: #fca311;
+  }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  background-color: #e5e5e5;
+  margin: 15px;
+  transition: 0.5s;
+  border-radius:15px;
+}
+.card:hover{
+  color: #14213d;
+  background-color: #fca311;
+}
+
+.card__description{
+ display:block;
+ margin:15px;
+}
