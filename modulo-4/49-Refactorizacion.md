@@ -1,23 +1,26 @@
-## Ejercicio 1: Nombre, función y parametro.
-* Creamos una funcion para saludar a nuestos nuevos alumnos
-    * Requerimos que el nombre de la función sea descriptiva a su comportamiento. 
-    * El parametro recibido es un nombre por lo que deberemos modificar la funcion por el mismo motivo del punto anterior.
-    
+# 🔨 Refactorizacion
 
-function sal(valor){
+## Ejercicios
 
-alert(" Hola "  + valor + " ¿como estas? ")
+### Ejercicio 1: Nombres adecuado
 
+Identificar qué acción realiza la siguiente función, y ponerle un nombre más descriptivo, así como a su parámetro.
+
+```js
+const sal = (valor) => {
+   alert(" Hola "  + valor + " ¿como estas? ")
 }
 
+
 sal("Juana")
+```
 
-## Ejercicio 2: Utilización If y Else.
-* Creamos una funcion para saber si la persona pertenece a la empresa o no.
-    * Requerimos modificar la función y utilizar correctamente el condicional.
+### Ejercicio 2: Buenos condicionales.
 
+En la siguiente función, mejorar el nombre del parámetro y el uso del condicional
 
-function esEmpleado(bValue) {
+```js
+const esEmpleado = (bValue) => {
   if(bValue) {
     alert("La persona es empleado de la empresa")
   }
@@ -26,84 +29,7 @@ function esEmpleado(bValue) {
     alert("Esta persona no pertenece a la compañía")
   }
 }
-
-
-## Ejercicio 3: Operación de numeros 
-* Tenemos esta función que recibe como parametro dos numeros y una operacion a realizar la funcion debe retornar el resultado de esta operacion.
-    * Verificar los nombres de los parametros de la funcion.
-    * La funcion no esta retornando lo esperado.
-
-
-function operacion(numero1, numero2, numero3){
-
-  var numero1= numero1;
-  var numero2= numero2;
-
-  return (numero1, numero2, numero3);
-
-}
-operacion(5, 8, "+")
-
-
-
-## Ejercicio 4: Corrección en la función
-* Tenemos una funcion donde se debe retornar el mayor de dos numeros 
-    * Verificar que la funcion retorne el resultado esperado.
-
-
-    function alt(valor1, valor2 ) {
-
-        if (valor1 > valor2 ){
-            return valor2;
-        } else {
-            return valor2;
-        }
-
-    } 
-
-     alt(120, 15);
-
-## Ejercicio 5: Calculo de precio
-* Se tiene una función que recibe un valor y calcula los impuestos y gastos de envio.
-    * Se requiere que la funcion de calculo de impuesto (llamado) tenga un nombre que haga referencia a la accion realizada.
-    * Los nombres de los parametros de la funcion "llamado" deben tener relacion con lo que recibe.
-
-
-function cal(valor) {
-  var impuestos = 1.16;
-  var gastosEnvio = 10;
-  return llamado (valor, impuestos, gastosEnvio);
-}
-function llamado(v1, v2, v3){
-
-  return (v1 * v2 ) + v3;
-
-}
-cal(120)
-
-## Ejercicio 6: Unificar funciones.
-* Se tienen tres funciones que tienen un comportamiento similar.
-    * Se deberá lograr ùnificar estas 3 funciones en una.
-    * Podemos recibir el monto del impuesto por parámetro o un valor de tipo texto "iva", "iibb", "ig" y consultar a una función que nos traiga el valor para evitar errores de càlculo.
-
-function calcularIva(valor){
-
-  return valor* 1.21;
-    
-}
-
-function calcularIIBB(valor)
-
-  return valor * 1,40;
-
-}
-
-function calcularIG(valor){
-
-  return valor * 1,35;
-
-}
-
+```
 
 ## Ejercicio 7: If and Else if
 
@@ -113,6 +39,7 @@ de
 * Se debe utilizar de forma correcta If Else para obtener un codigo optimizado.
 
 
+```js
 function edades(edad){
 
   if(edad <  13 ){
@@ -138,8 +65,9 @@ function edades(edad){
   
   } 
 }
- edades(78);
 
+edades(78);
+```
 
 
 
@@ -148,7 +76,7 @@ function edades(edad){
   * Requerimos que el nombre de la funcion sea descriptivo a su comportamiento. 
   * Utilizar correctamente If, Else If y Else.
 
-
+```js
 function info(cadena) {
 
   var resultado;
@@ -168,22 +96,24 @@ function info(cadena) {
 
 info("OVNI = EL OBJETO VOLADOR NO ESTA IDENTIFICADO");
 info("objeto volador no identificado...");
+```
 
+### Ejercico 9: Cálculo de sueldo
 
- ## Ejercico 9: Cálculo de sueldo
-* Dada la función anterior, la cual realiza el calculo de sueldo de los operarios de una planta,  debemos refactorizar lo siguiente:
-  * Acotar el nombre de la variable de sueldo por categoria
-  * Crear funciones auxiliares y externas a la función actual
-  *  Comentar que rol cumple cada función en el código
-  * Las variables y funciones deben tener un nombre que hagan referencia a la acción. Por ejemplo: _obtenerDescuentoAnssal
+La función siguiente realiza el calculo de sueldo de los operarios de una planta,  pero tiene varios problemas:
 
+   - malos nombres de parámetros y variables
+   - uso de `let` en vez de `const`
+   - hace muchas cosas
 
- function calcular(valor1, valor2, valor3, valor4, valor5, valor6) {
+Mejorar el código para solucionar los problemas presentados.
 
-    let sueldoSegunCategoriaAsignada = function(cate) {
-        
-        switch(cate) {
+```js
+const calcular = (valor1, valor2, valor3, valor4, valor5, valor6) => {
 
+   let sueldoSegunCategoriaAsignada = (cate) => {
+
+     switch(cate) {
         case "operarioC":
         return 13000;
         break;
@@ -196,46 +126,39 @@ info("objeto volador no identificado...");
         default:
         return "0";
         break;
+      }
+   }
+
+   let cate = sueldoSegunCategoriaAsignada(valor3);
+
+   let jubilacion = (jub, cate) =< {
+      if(!jub){
+         return cate * 0.11;
+      } else {
+         return 0;
+      }
     }
-    }
 
-    let cate = sueldoSegunCategoriaAsignada(valor3);
+   let jub = jubilacion(valor4, cate);
 
-
-    let jubilacion = function(jub, cate) {
-        if(!jub){
-            return cate * 0.11;
-        }else {
-            return 0;
-        }
-    }
-
-    let jub = jubilacion(valor4, cate);
-
-      let anssal = function(sueldoSegunCategoriaAsignada) {
-        
+   let anssal = (sueldoSegunCategoriaAsignada) => {
       return sueldoSegunCategoriaAsignada * 0.03;
-       
-    }
+   }
 
-    desc1 = anssal(cate)
+   desc1 = anssal(cate)
 
-     let os = function(sueldoSegunCategoriaAsignada) {
-        
-     return sueldoSegunCategoriaAsignada * 0.03;
-       
-    }
+   let os = (sueldoSegunCategoriaAsignada) => {
+      return sueldoSegunCategoriaAsignada * 0.03;
+   }
 
-    desc2 = os(cate)
+   desc2 = os(cate)
 
-    let valor = cate - jub - desc1 - desc2;
+   let valor = cate - jub - desc1 - desc2;
    
-    return `el sueldo neto de ${valor1} ${valor2} es de ${valor}`;
-
+   return valor
 }
 
 calcular("Maria", "Paz", "operarioA", false, 8, 0)
-
-
+```
 
   
