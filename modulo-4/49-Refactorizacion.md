@@ -2,9 +2,9 @@
 
 ## Ejercicios
 
-### Ejercicio 1: Nombres adecuado
+### Ejercicio 1: Nombres adecuados
 
-Identificar qué acción realiza la siguiente función, y ponerle un nombre más descriptivo, así como a su parámetro.
+Identificar qué acción realiza la siguiente función, y ponerle un nombre más descriptivo, así como a su parámetro
 
 ```js
 const sal = (valor) => {
@@ -15,7 +15,7 @@ const sal = (valor) => {
 sal("Juana")
 ```
 
-### Ejercicio 2: Buenos condicionales.
+### Ejercicio 2: Buenos condicionales
 
 En la siguiente función, mejorar el nombre del parámetro y el uso del condicional
 
@@ -31,74 +31,31 @@ const esEmpleado = (bValue) => {
 }
 ```
 
-## Ejercicio 7: If and Else if
+## Ejercicio 3: Condicionales anidados
 
-* Tenemos una función donde se retorna cual es la etapa en la que se encuentra segun la edad.
- se debe optimizar el codigo devolviendo lo que se requiere.
-de
-* Se debe utilizar de forma correcta If Else para obtener un codigo optimizado.
-
+Mejorar el nombre de la siguiente función y simplificar los condicionales para evitar tanto anidado
 
 ```js
-function edades(edad){
-
-  if(edad <  13 ){
-
-    alert ("Es un niño");
-
-  }else {
-    if (edad  <  18 ){
-
-      alert ("Es un adolescente");
-
-    }else {
-      if (edad <  27 ){
-
-        alert ("es un adulto");
-
-      }else {
-
-        alert ("es un adulto mayor" );
-
+const temperatura = (grados) => {
+  if (grados <  0 ){
+    return "Frío"
+  } else {
+    if (grados  <  15 ) {
+      return "Fresco"
+    } else {
+      if (grados <  23 ) {
+        return "Templado"
+      } else {
+        return "Calor"
       }
     }
-  
   } 
 }
 
-edades(78);
+temperatura(33)
 ```
 
-
-
-## ejercico 8: If, Else If y Else.
-* Tenemos una funcion donde se retornaran 1 de 3 resultados dependiendo de las mayusculas y minisculas de la oracion.
-  * Requerimos que el nombre de la funcion sea descriptivo a su comportamiento. 
-  * Utilizar correctamente If, Else If y Else.
-
-```js
-function info(cadena) {
-
-  var resultado;
-
-  // Comprobar mayúsculas y minúsculas
-  if(cadena == cadena.toUpperCase()) {
-    resultado = " está formada sólo por mayúsculas";   
-  }
- if(cadena !== cadena.toUpperCase()) {
-    resultado = " está formada sólo por minúsculas";
-  }else {
-    resultado = " está formada por mayúsculas y minúsculas";
-  }
-
-  return resultado;
-}
-
-info("OVNI = EL OBJETO VOLADOR NO ESTA IDENTIFICADO");
-info("objeto volador no identificado...");
-```
-
-### Ejercico 9: Cálculo de sueldo
+### Ejercicio 5: Cálculo de sueldo
 
 La función siguiente realiza el calculo de sueldo de los operarios de una planta,  pero tiene varios problemas:
 
@@ -160,5 +117,3 @@ const calcular = (valor1, valor2, valor3, valor4, valor5, valor6) => {
 
 calcular("Maria", "Paz", "operarioA", false, 8, 0)
 ```
-
-  
