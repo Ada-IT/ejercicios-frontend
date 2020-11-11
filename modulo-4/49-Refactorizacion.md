@@ -55,7 +55,7 @@ const temperatura = (grados) => {
 temperatura(33)
 ```
 
-### Ejercicio 5: Cálculo de sueldo
+### Ejercicio 4: Cálculo de sueldo
 
 La función siguiente realiza el calculo de sueldo de los operarios de una planta,  pero tiene varios problemas:
 
