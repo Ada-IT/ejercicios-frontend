@@ -33,3 +33,41 @@ Utilizando el témplate de `ejercicio Foodish Cards Filters`, cuando se abre la 
 #### Agregando Filters - minima cantidad de computos 
 Repetir el ejercicio anterior, pero ahora cada vez que se haga click en unos de los filtros se debe hacer la peticion requerida.
 
+### Ejercicio 6 - SocialDog
+api: [http://my-json-server.typicode.com/matiasbenary/dbJsonDogs](http://my-json-server.typicode.com/matiasbenary/dbJsonDogs)
+
+#### Creando Cards
+Utilizando el témplate de `ejercicio SocialDog`, consumiendo los datos del endpoint `/dogs`  y usando de referencia la card del template crear una lista de cards.
+
+#### Usando modal
+Ahora cuando se haga click en una card este debe abrir el modal y mostrar la info del endpoint `dogs/:id/comments`,donde id correponde al id de la card clickeada.
+
+### Ejercicio 7 - NewsApi
+api: [https://newsapi.org/](https://newsapi.org/)
+Para utilizar hay que crearse una cuenta,con esto obtendremos un apiKey necesario para hacer las consultas
+
+#### Creando Cards
+Utilizando el témplate de `ejercicio NewsApi`, consumiendo los datos del endpoint `/top-headlines?country=ar&category=technology&page=1&pageSize=12&apiKey=${apiKey}` y usando de referencia la card del template crear una lista de cards.
+
+#### Crear un paginado
+Agregar la variable globales que sean necesarias.Agregar el parametro `page` al endpoint,ej: `/top-headlines?country=ar&category=technology&page=1&pageSize=12&apiKey=${apiKey}`.Cuando se haga click en siguiente se debe avanzar una pagina, si esta en la ultima se debe deshabilitar.Por otro lado cuando se haga clien en anterior se debe retroceder una pagina,si esta en la primera pagina deberia se debe deshabilitar.Por
+
+### Ejercicio 8 - Alquileres
+api: [https://mockapi.io/clone/5fada5eb2ec98b001604891c](https://mockapi.io/clone/5fada5eb2ec98b001604891c)
+Para utilizar hay que crearse una cuenta,y clonar el proyecto.
+
+#### Creando la table
+Utilizando el témplate de `ejercicio Alquileres`, consumiendo los datos del endpoint `/users` y usando de referencia la table del template crear una nueva table con los datos de la api.
+
+#### Agregar usuarios
+Cuando se haga click en el boton `agregar usuario` se debe abrir un modal.Luego de que el usuario lo complete y se haga click en guardar.Se debe usar endpoint `/users` con el metodo `POST`  para guardar los datos.Una vez echo esto se debe actualizar la tabla.
+
+#### Actualizar usuarios
+Cuando se haga click en el icono `edicion` sobre la tabla se debe abrir un modal para editar el usuario.Se puede usar el mismo modal de antes.Se debe usar endpoint `/users` con el metodo `PUT`  para editar el usuario.Una vez echo esto se debe actualizar la tabla.
+
+#### Modificar usuarios
+Cuando se haga click en el icono `eliminar` sobre la tabla se debe abrir un modal para eliminar ese usuario.Se debe usar endpoint `/users` con el metodo `DELETE`  para eliminar el usuario.Una vez echo esto se debe actualizar la tabla.
+
+
+
+
