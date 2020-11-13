@@ -90,7 +90,7 @@ console.log();
 console.log();
 ```
 
-### 04 - correcion de datos
+### 04 - correción de datos
 
 - Tenemos la variable `datos` que tiene un objeto con los datos de una persona
 - El teléfono está mal y tenemos que modificarlo, pero no podemos modificar la definición/creación del objeto. El télefono correcto es **0192837465**
@@ -120,7 +120,7 @@ console.log(datos);
 //   programa: true }
 ```
 
-### 05 - leguaje favorito
+### 05 - lenguaje favorito
 
 - Tenemos la variable `datos` con un objeto que guarda datos de personas
 - Tenemos que programar la siguiente lógica
