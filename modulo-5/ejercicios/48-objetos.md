@@ -1,4 +1,11 @@
-# Objetos
+# 📦 Objetos
+
+### Contenido
+
+- [Conceptos bases](#primera-parte---conceptos-bases)
+- [Objetos dinámicos](#segunda-parte---objetos-dinamicos)
+- [Funciones dentro de objetos](#tercera-parte---funciones-dentro-de-objetos)
+- [Funciones con objetos](#cuarta-parte---funciones-con-objetos)
 
 ## Primera parte - conceptos bases
 
@@ -201,7 +208,7 @@ console.log("El disco " + nombreDisco + " de la banda " + nombreBanda + " se lan
 // El disco Wasting Light de la banda Foo Fighters se lanzó en el año 2011
 ```
 
-### 08 - Agregar Skills
+### 08 - skills
 
 - Tenemos la variable `user`, que es un objeto con datos de una persona en linkedin
 - En el objeto hay una propiedad `skills`, que es un array con las distintas habilidades de la persona
@@ -292,7 +299,7 @@ var ganadoras = [
 // Bianca Del Rio ganó la temporada 6
 ```
 
-### 11 - duracion de canciones
+### 11 - canciones
 
 - Tenemos un array de objetos, que representa un listado de bandas
 - Cada objeto representa una banda, y tiene las propidades `id`, `nombre`, `fundacion`, `activa`
@@ -317,7 +324,7 @@ var bandas = [
 // Pearl Jam está activa desde el año 1990
 ```
 
-### 12 - Info banda
+### 12 - banda
 
 - Tenemos un objeto en la variable `banda`, con datos de una banda (nombre, año de lanzamiento, si sigue en actividad, una foto, los integrantes y una lista de sus discos).
 - Queremos mostrar:
@@ -424,7 +431,7 @@ console.log(todasLasPropiedades);
 //   'location' ]
 ```
 
-### 03 - Producto
+### 03 - producto
 
 - Partiendo de un objeto guardado en la variable `producto`
 - Mostrar en la consola el nombre y valor de todas las propiedades que tiene el producto
@@ -456,7 +463,7 @@ const producto = {
 // producto['location'] -> Capital Federal
 ```
 
-### 04 - TengoEmail
+### 04 - email
 
 - Partiendo de un objeto guardado en la variable `user`
 - Verificar si tiene la propiedad `email`
@@ -472,7 +479,7 @@ const user = {
 // acá tu solucion
 ```
 
-### 05 - hasProperty
+### 05 - propiedad
 
 - Completa el código dentro de la función `hasProperty`
   - Si el objeto de la variable `object` tiene la propiedad que recibe en la variable `property`, retorna `true`
@@ -691,7 +698,7 @@ shoppingCart.render();
 // Total con IVA: $1629.2529
 ```
 
-## Cuarta parte - funciones + objetos
+## Cuarta parte - funciones con objetos
 
 ### **Nombre completo**
 
@@ -1045,4 +1052,28 @@ removeProperties(data, props); // returns {a: 1, b: 2}
 const data = { a: 1, b: 2, c: 3 };
 const props = ["c", "b"];
 filterProperties(data, props); // returns {b: 2, c: 3}
+```
+
+## Analizando strings
+
+- Crear una función que dado un string devuelva un objeto con la cantidad de letras, espacios y números que contiene. Cualquier cosa que no sea un número o un espacio cuenta como una letra
+
+```javascript
+getStringInfo("H3ll0 Wor1d") // returns { LETTERS:  7, DIGITS: 3, SPACES: 1 }
+```
+
+## Analizando párrafos
+
+- Crear una función que dado un string devuelva un objeto con la cantidad de letras, palabras y oraciones.
+
+```javascript
+getParagraphInfo("Do. Or do not. There is no try.") // returns { LETTERS:  21, WORDS: 8, SENTENCE: 3 }
+```
+
+## Contar palabras
+
+- Crear una función que dado un string devuelva un objeto con cada palabra que hay y la cantidad de veces que aparece. La función debe ignorar el caso ("JavaScript" y "javascript" cuentan como una misma palabra) y el objeto devuelto debe tener todas sus propiedades en minúscula  
+
+```javascript
+countWords("El que compra pocas capas pocas capas paga") // returns { el: 1, que: 1, compra: 1, pocas: 2, capas: 2, paga: 1 }
 ```
