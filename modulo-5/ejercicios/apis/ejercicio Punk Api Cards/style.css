@@ -1,9 +1,10 @@
-/* <- Demo Stuff Start */
-
 body {
-  font-family: "Nunito", sans-serif;
   margin: 0;
   background-color: #ffffff;
+}
+
+h1{
+  font-size: 48px;
 }
 
 .container {
@@ -43,15 +44,15 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 350px;
+  width: 300px;
   background-color: #e5e5e5;
   margin: 15px;
+  padding:15px;
   transition: 0.5s;
   border-radius: 15px;
 }
-.card:hover { 
+.card:hover {
   color: #14213d;
   background-color: #fca311;
 }
