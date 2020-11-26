@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h1{
+h1 {
   font-size: 48px;
 }
 
@@ -39,6 +40,7 @@ h1{
 .container__beers {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -46,15 +48,11 @@ h1{
   flex-direction: column;
   align-items: center;
   width: 300px;
-  background-color: #e5e5e5;
+  background-color: #f5f5f5;
   margin: 15px;
-  padding:15px;
+  padding: 15px;
   transition: 0.5s;
-  border-radius: 15px;
-}
-.card:hover {
-  color: #14213d;
-  background-color: #fca311;
+  border-radius: 10px;
 }
 
 .card__description {
