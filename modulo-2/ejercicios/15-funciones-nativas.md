@@ -16,8 +16,8 @@ igualLongitud('manzana', 'cerveza') // true
 Crear una función `igualLongitud` que tome como argumentos una `palabra` y un `caracter` y devuelva `true` si la `palabra` termina con el `caracter` o `false` de lo contrario
 
 ```javascript
-igualLongitud('lovelace', 'e') // true
-igualLongitud('lovelace', 'f') // false
+esUltimoCaracter('lovelace', 'e') // true
+esUltimoCaracter('lovelace', 'f') // false
 ```
 
 ### `esContraseniaValida(contrasenia)`
@@ -51,7 +51,7 @@ contarPalabras('si debuggear es el proceso de remover bugs, programar es el proc
 
 ### `burlarse(str)`
 
-Crear una función `contarPalabras` que tome como argumento un string `str` y devuelva el mismo string con todas las vocales reemplazadas por la letra i
+Crear una función `burlarse` que tome como argumento un string `str` y devuelva el mismo string con todas las vocales reemplazadas por la letra i
 
 ```javascript
 burlarse('programar es dificil') // 'prigimir is dificil'
