@@ -7,13 +7,13 @@
 Crear una función `tienenMismaLongitud` que tome como argumentos dos strings `a` y `b` y devuelva `true` si tienen la misma longitud o `false` de lo contrario
 
 ```javascript
-igualLongitud('javascript', 'java') // false
-igualLongitud('manzana', 'cerveza') // true
+tienenMismaLongitud('javascript', 'java') // false
+tienenMismaLongitud('manzana', 'cerveza') // true
 ```
 
 ### `esUltimoCaracter(palabra, caracter)`
 
-Crear una función `igualLongitud` que tome como argumentos una `palabra` y un `caracter` y devuelva `true` si la `palabra` termina con el `caracter` o `false` de lo contrario
+Crear una función `esUltimoCaracter` que tome como argumentos una `palabra` y un `caracter` y devuelva `true` si la `palabra` termina con el `caracter` o `false` de lo contrario
 
 ```javascript
 esUltimoCaracter('lovelace', 'e') // true
