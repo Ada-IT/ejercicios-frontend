@@ -4,7 +4,7 @@
 
 ### Datos
 
-Importar en el documento los siguientes scripts con los datos para poder realizar los ejercicios
+Importar en el documento los scripts de esta carpeta con los datos para poder realizar los ejercicios (`empleades.js`, `estudiantes.js`, `artista.js`).
 
 ### A tener en cuenta
 
