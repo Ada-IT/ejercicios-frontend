@@ -86,7 +86,7 @@ input[type='text']{
 ````
 
 
-8. Para facilitar el manejo de las operaciones te recomendamos leer sobre [eval()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/eval) para qeu puedas usar algo así: `eval(result).toString())` 
+8. Para facilitar el manejo de las operaciones te recomendamos leer sobre [eval()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/eval) para que puedas usar algo así: `eval(result).toString())` 
 
 
 
